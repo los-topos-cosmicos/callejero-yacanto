@@ -1,4 +1,3 @@
-# Tu primera contribución al callejero
 
 ![Bienvenido al callejero: investigar, documentar y compartir. Una computadora con una tabla de nombres junto a un mapa ilustrativo y un cuaderno.](docs/imagenes/bienvenida.png)
 
