@@ -37,11 +37,6 @@ class Proyecto(unittest.TestCase):
         a=dict(id=key,nombre_crudo=row['nombre_crudo'],nombre_aprobado=row['nombre'],fecha='2026-09-18',referencia='TEST-SINTETICO')
         a.update(overrides);escribir_csv(self.root/'datos/conformidad.csv',[a],CONFORMIDAD)
     def test_baseline_counts_and_no_approval(self):
-        # 251 y 1102 salen de la extracción y son fijos. No fijar aquí cuántas
-        # calles están propuestas o en consulta: eso crece con el trabajo del
-        # pasante y haría fallar su PR.
-        data=cargar(self.root);s=resumen(data)
-    def test_baseline_counts_and_no_approval(self):
         data=cargar(self.root);s=resumen(data)
         # 251 calles y 1102 rótulos salen de la extracción: no cambian con el avance.
         self.assertEqual((s['total'],s['rotulos']),(251,1102))
@@ -51,9 +46,6 @@ class Proyecto(unittest.TestCase):
     def test_unapproved_changes_never_enter_approved_payload(self):
         # Se mide el incremento, no el total: los lotes avanzan con el trabajo.
         antes=len(cambios(cargar(self.root),False))
-        self.propose();data=cargar(self.root)
-        self.assertEqual(cambios(data,True),[])
-        self.assertEqual(len(cambios(data,False))-antes,9)        antes=len(cambios(cargar(self.root),False))
         self.propose();data=cargar(self.root)
         self.assertEqual(cambios(data,True),[])
         self.assertEqual(len(cambios(data,False))-antes,9)
