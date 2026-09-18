@@ -37,13 +37,19 @@ class Proyecto(unittest.TestCase):
         a=dict(id=key,nombre_crudo=row['nombre_crudo'],nombre_aprobado=row['nombre'],fecha='2026-09-18',referencia='TEST-SINTETICO')
         a.update(overrides);escribir_csv(self.root/'datos/conformidad.csv',[a],CONFORMIDAD)
     def test_baseline_counts_and_no_approval(self):
+        # 251 y 1102 salen de la extracción y son fijos. No fijar aquí cuántas
+        # calles están propuestas o en consulta: eso crece con el trabajo del
+        # pasante y haría fallar su PR.
         data=cargar(self.root);s=resumen(data)
-        self.assertEqual((s['total'],s['rotulos'],s['aprobada'],s['en_consulta']),(251,1102,0,4))
+        self.assertEqual((s['total'],s['rotulos']),(251,1102))
+        self.assertEqual(s['aprobada'],0)
         self.assertEqual(cambios(data,True),[])
     def test_unapproved_changes_never_enter_approved_payload(self):
+        # Se mide el incremento, no el total, por la misma razón.
+        antes=len(cambios(cargar(self.root),False))
         self.propose();data=cargar(self.root)
         self.assertEqual(cambios(data,True),[])
-        self.assertEqual(len(cambios(data,False)),9)
+        self.assertEqual(len(cambios(data,False))-antes,9)
     def test_exact_approved_accent_reaches_all_9_handles(self):
         key=self.propose();self.approve(key);data=cargar(self.root)
         changes=cambios(data,True);self.assertEqual(len(changes),9)
