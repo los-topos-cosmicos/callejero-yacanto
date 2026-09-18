@@ -1,0 +1,5027 @@
+{
+  "type": "FeatureCollection",
+  "descripcion": "Inventario de puntos de referencia, no ejes de calles. Geometría nula hasta verificar CRS y correspondencia espacial.",
+  "georreferenciacion_verificada": false,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "001",
+      "geometry": null,
+      "properties": {
+        "id": "001",
+        "nombre_crudo": "14 Provincias",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "en_consulta",
+        "nota": "No se pudo establecer a que alude el nombre. Consultar a la Municipalidad antes de proponer nota",
+        "fuente": "",
+        "lote": "lote-01.csv",
+        "estado_final": "en_consulta",
+        "x_dibujo": "4333403.18",
+        "y_dibujo": "6442552.13",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "002",
+      "geometry": null,
+      "properties": {
+        "id": "002",
+        "nombre_crudo": "2 de Abril",
+        "nombre": "2 de Abril",
+        "tipo": "calle",
+        "homenaje": "fecha",
+        "estado": "propuesta",
+        "nota": "Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.",
+        "fuente": "Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.",
+        "lote": "lote-01.csv",
+        "estado_final": "propuesta",
+        "x_dibujo": "4334226.58",
+        "y_dibujo": "6442605.1",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "003",
+      "geometry": null,
+      "properties": {
+        "id": "003",
+        "nombre_crudo": "25 de Mayo",
+        "nombre": "25 de Mayo",
+        "tipo": "calle",
+        "homenaje": "fecha",
+        "estado": "propuesta",
+        "nota": "Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.",
+        "fuente": "Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.",
+        "lote": "lote-01.csv",
+        "estado_final": "propuesta",
+        "x_dibujo": "4333032.89",
+        "y_dibujo": "6441567.94",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "004",
+      "geometry": null,
+      "properties": {
+        "id": "004",
+        "nombre_crudo": "9 de Julio",
+        "nombre": "9 de Julio",
+        "tipo": "calle",
+        "homenaje": "fecha",
+        "estado": "propuesta",
+        "nota": "Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.",
+        "fuente": "Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.",
+        "lote": "lote-01.csv",
+        "estado_final": "propuesta",
+        "x_dibujo": "4333528.33",
+        "y_dibujo": "6442299.38",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "005",
+      "geometry": null,
+      "properties": {
+        "id": "005",
+        "nombre_crudo": "Aguila Mora",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "en_consulta",
+        "nota": "Posible tilde en Águila. Confirmar grafía oficial y referente antes de proponer el cambio.",
+        "fuente": "",
+        "lote": "lote-01.csv",
+        "estado_final": "en_consulta",
+        "x_dibujo": "4333843.34",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "006",
+      "geometry": null,
+      "properties": {
+        "id": "006",
+        "nombre_crudo": "Almafuerte",
+        "nombre": "Almafuerte",
+        "tipo": "calle",
+        "homenaje": "persona",
+        "estado": "propuesta",
+        "nota": "Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.",
+        "fuente": "Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.",
+        "lote": "lote-01.csv",
+        "estado_final": "propuesta",
+        "x_dibujo": "4334201.12",
+        "y_dibujo": "6443512.52",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "007",
+      "geometry": null,
+      "properties": {
+        "id": "007",
+        "nombre_crudo": "Almirante Brown",
+        "nombre": "Almirante Brown",
+        "tipo": "calle",
+        "homenaje": "persona",
+        "estado": "propuesta",
+        "nota": "Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.",
+        "fuente": "Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.",
+        "lote": "lote-01.csv",
+        "estado_final": "propuesta",
+        "x_dibujo": "4332918.5",
+        "y_dibujo": "6443236.63",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "008",
+      "geometry": null,
+      "properties": {
+        "id": "008",
+        "nombre_crudo": "Alsina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "en_consulta",
+        "nota": "Hay varios Alsina en la historia argentina. Confirmar a cual homenajea la calle",
+        "fuente": "",
+        "lote": "lote-01.csv",
+        "estado_final": "en_consulta",
+        "x_dibujo": "4332887.35",
+        "y_dibujo": "6441375.82",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "009",
+      "geometry": null,
+      "properties": {
+        "id": "009",
+        "nombre_crudo": "Anisacate",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "en_consulta",
+        "nota": "Anisacate es tambien una localidad de Cordoba. Confirmar si el nombre alude a ella",
+        "fuente": "",
+        "lote": "lote-01.csv",
+        "estado_final": "en_consulta",
+        "x_dibujo": "4333110.14",
+        "y_dibujo": "6445246.41",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "010",
+      "geometry": null,
+      "properties": {
+        "id": "010",
+        "nombre_crudo": "Arrecifes",
+        "nombre": "Arrecifes",
+        "tipo": "calle",
+        "homenaje": "lugar",
+        "estado": "propuesta",
+        "nota": "Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.",
+        "fuente": "Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.",
+        "lote": "lote-01.csv",
+        "estado_final": "propuesta",
+        "x_dibujo": "4333670.62",
+        "y_dibujo": "6441482.43",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "011",
+      "geometry": null,
+      "properties": {
+        "id": "011",
+        "nombre_crudo": "Arroyito",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333147.61",
+        "y_dibujo": "6444468.56",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "012",
+      "geometry": null,
+      "properties": {
+        "id": "012",
+        "nombre_crudo": "Arturo Humberto Illia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334254.32",
+        "y_dibujo": "6443698.03",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "013",
+      "geometry": null,
+      "properties": {
+        "id": "013",
+        "nombre_crudo": "Atahualpa Yupanqui",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334483.67",
+        "y_dibujo": "6442827.01",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "014",
+      "geometry": null,
+      "properties": {
+        "id": "014",
+        "nombre_crudo": "Av Jose Marrero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333521.1",
+        "y_dibujo": "6441809.85",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "015",
+      "geometry": null,
+      "properties": {
+        "id": "015",
+        "nombre_crudo": "Av, Virgen de los 3 Cerritos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332438.71",
+        "y_dibujo": "6441751.3",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "016",
+      "geometry": null,
+      "properties": {
+        "id": "016",
+        "nombre_crudo": "Av. Central",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333140.7",
+        "y_dibujo": "6441439.55",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "017",
+      "geometry": null,
+      "properties": {
+        "id": "017",
+        "nombre_crudo": "Av. Costanera",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332609.92",
+        "y_dibujo": "6441300.63",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "018",
+      "geometry": null,
+      "properties": {
+        "id": "018",
+        "nombre_crudo": "Av. del Parque",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333216.23",
+        "y_dibujo": "6441299.97",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "019",
+      "geometry": null,
+      "properties": {
+        "id": "019",
+        "nombre_crudo": "Av. Jesus de los Linderos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4331981.92",
+        "y_dibujo": "6440858.93",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "020",
+      "geometry": null,
+      "properties": {
+        "id": "020",
+        "nombre_crudo": "Av. Lanza Donatti",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-02.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333390.51",
+        "y_dibujo": "6441703.82",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "021",
+      "geometry": null,
+      "properties": {
+        "id": "021",
+        "nombre_crudo": "Av. Los Sauces",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333422.49",
+        "y_dibujo": "6441977.87",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "022",
+      "geometry": null,
+      "properties": {
+        "id": "022",
+        "nombre_crudo": "Av. Virgen",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332844.64",
+        "y_dibujo": "6441168.35",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "023",
+      "geometry": null,
+      "properties": {
+        "id": "023",
+        "nombre_crudo": "Av. Virgen de la Merced",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333407.88",
+        "y_dibujo": "6441115.34",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "024",
+      "geometry": null,
+      "properties": {
+        "id": "024",
+        "nombre_crudo": "Avenida Ascasubi",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333857.33",
+        "y_dibujo": "6443737.08",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "025",
+      "geometry": null,
+      "properties": {
+        "id": "025",
+        "nombre_crudo": "Avenida Yacanto",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334856.94",
+        "y_dibujo": "6442367.91",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "026",
+      "geometry": null,
+      "properties": {
+        "id": "026",
+        "nombre_crudo": "Balnearia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333485.21",
+        "y_dibujo": "6444693.05",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "027",
+      "geometry": null,
+      "properties": {
+        "id": "027",
+        "nombre_crudo": "Bartolome Mitre",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333971.86",
+        "y_dibujo": "6443787.91",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "028",
+      "geometry": null,
+      "properties": {
+        "id": "028",
+        "nombre_crudo": "Belgrano",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333118.64",
+        "y_dibujo": "6441518.57",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "029",
+      "geometry": null,
+      "properties": {
+        "id": "029",
+        "nombre_crudo": "Bell Ville",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334517.05",
+        "y_dibujo": "6443302.64",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "030",
+      "geometry": null,
+      "properties": {
+        "id": "030",
+        "nombre_crudo": "Bella Vista",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333202.38",
+        "y_dibujo": "6443834.52",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "031",
+      "geometry": null,
+      "properties": {
+        "id": "031",
+        "nombre_crudo": "Benjamin Franklin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332604.13",
+        "y_dibujo": "6440196.53",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "032",
+      "geometry": null,
+      "properties": {
+        "id": "032",
+        "nombre_crudo": "Bosque Alto",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333270.65",
+        "y_dibujo": "6441194.77",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "033",
+      "geometry": null,
+      "properties": {
+        "id": "033",
+        "nombre_crudo": "Brasil",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333797.72",
+        "y_dibujo": "6443321.2",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "034",
+      "geometry": null,
+      "properties": {
+        "id": "034",
+        "nombre_crudo": "Buchardo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333021.22",
+        "y_dibujo": "6442360.88",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "035",
+      "geometry": null,
+      "properties": {
+        "id": "035",
+        "nombre_crudo": "Buenos Aires",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333468.0",
+        "y_dibujo": "6442028.61",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "036",
+      "geometry": null,
+      "properties": {
+        "id": "036",
+        "nombre_crudo": "C. Velez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333959.02",
+        "y_dibujo": "6441366.91",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "037",
+      "geometry": null,
+      "properties": {
+        "id": "037",
+        "nombre_crudo": "Calchaqui",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333135.41",
+        "y_dibujo": "6443636.24",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "038",
+      "geometry": null,
+      "properties": {
+        "id": "038",
+        "nombre_crudo": "Capilla del Monte",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333075.87",
+        "y_dibujo": "6444460.69",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "039",
+      "geometry": null,
+      "properties": {
+        "id": "039",
+        "nombre_crudo": "Carcaraña",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333012.03",
+        "y_dibujo": "6443210.41",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "040",
+      "geometry": null,
+      "properties": {
+        "id": "040",
+        "nombre_crudo": "Carlos Arcusin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-03.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4331956.71",
+        "y_dibujo": "6440429.63",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "041",
+      "geometry": null,
+      "properties": {
+        "id": "041",
+        "nombre_crudo": "Carlos Ballestrini",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332764.07",
+        "y_dibujo": "6441851.65",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "042",
+      "geometry": null,
+      "properties": {
+        "id": "042",
+        "nombre_crudo": "Carmen Marcos Gigena",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333962.59",
+        "y_dibujo": "6441407.57",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "043",
+      "geometry": null,
+      "properties": {
+        "id": "043",
+        "nombre_crudo": "Carquejilla",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332352.87",
+        "y_dibujo": "6442067.59",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "044",
+      "geometry": null,
+      "properties": {
+        "id": "044",
+        "nombre_crudo": "Catania",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334289.62",
+        "y_dibujo": "6442222.31",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "045",
+      "geometry": null,
+      "properties": {
+        "id": "045",
+        "nombre_crudo": "Cementerio",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333827.83",
+        "y_dibujo": "6440839.14",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "046",
+      "geometry": null,
+      "properties": {
+        "id": "046",
+        "nombre_crudo": "Charcal",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332337.59",
+        "y_dibujo": "6441364.92",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "047",
+      "geometry": null,
+      "properties": {
+        "id": "047",
+        "nombre_crudo": "Charcas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333885.98",
+        "y_dibujo": "6441958.36",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "048",
+      "geometry": null,
+      "properties": {
+        "id": "048",
+        "nombre_crudo": "Che Guevara",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334725.17",
+        "y_dibujo": "6442014.23",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "049",
+      "geometry": null,
+      "properties": {
+        "id": "049",
+        "nombre_crudo": "Chilecito",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332658.78",
+        "y_dibujo": "6443347.76",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "050",
+      "geometry": null,
+      "properties": {
+        "id": "050",
+        "nombre_crudo": "Colombia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333552.93",
+        "y_dibujo": "6443044.99",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "051",
+      "geometry": null,
+      "properties": {
+        "id": "051",
+        "nombre_crudo": "Colonias Unidas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333093.53",
+        "y_dibujo": "6443606.72",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "052",
+      "geometry": null,
+      "properties": {
+        "id": "052",
+        "nombre_crudo": "Concejal Alfredo Busto",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334338.68",
+        "y_dibujo": "6443011.16",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "053",
+      "geometry": null,
+      "properties": {
+        "id": "053",
+        "nombre_crudo": "Concejal Palacios",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333152.68",
+        "y_dibujo": "6441895.68",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "054",
+      "geometry": null,
+      "properties": {
+        "id": "054",
+        "nombre_crudo": "Concejal Peñaloza",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333953.91",
+        "y_dibujo": "6441333.79",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "055",
+      "geometry": null,
+      "properties": {
+        "id": "055",
+        "nombre_crudo": "Cordoba",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333399.77",
+        "y_dibujo": "6442792.69",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "056",
+      "geometry": null,
+      "properties": {
+        "id": "056",
+        "nombre_crudo": "Corrientes",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333680.19",
+        "y_dibujo": "6442297.49",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "057",
+      "geometry": null,
+      "properties": {
+        "id": "057",
+        "nombre_crudo": "Cosquin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334054.72",
+        "y_dibujo": "6443653.42",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "058",
+      "geometry": null,
+      "properties": {
+        "id": "058",
+        "nombre_crudo": "Cr. San Agustin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4331673.36",
+        "y_dibujo": "6440898.12",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "059",
+      "geometry": null,
+      "properties": {
+        "id": "059",
+        "nombre_crudo": "Cristiane Quirino",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332038.56",
+        "y_dibujo": "6440258.27",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "060",
+      "geometry": null,
+      "properties": {
+        "id": "060",
+        "nombre_crudo": "Cruz del Eje",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-04.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334210.42",
+        "y_dibujo": "6443869.02",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "061",
+      "geometry": null,
+      "properties": {
+        "id": "061",
+        "nombre_crudo": "Cura Brochero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333775.59",
+        "y_dibujo": "6444994.91",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "062",
+      "geometry": null,
+      "properties": {
+        "id": "062",
+        "nombre_crudo": "de la Merced",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332890.83",
+        "y_dibujo": "6441174.6",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "063",
+      "geometry": null,
+      "properties": {
+        "id": "063",
+        "nombre_crudo": "Dean Funes",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334504.32",
+        "y_dibujo": "6443986.95",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "064",
+      "geometry": null,
+      "properties": {
+        "id": "064",
+        "nombre_crudo": "Derqui",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333204.51",
+        "y_dibujo": "6443709.84",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "065",
+      "geometry": null,
+      "properties": {
+        "id": "065",
+        "nombre_crudo": "Don Brigido Torres",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334111.81",
+        "y_dibujo": "6440769.58",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "066",
+      "geometry": null,
+      "properties": {
+        "id": "066",
+        "nombre_crudo": "Eduardo Galeano",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334555.62",
+        "y_dibujo": "6441219.12",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "067",
+      "geometry": null,
+      "properties": {
+        "id": "067",
+        "nombre_crudo": "El Cardenal",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332793.67",
+        "y_dibujo": "6440320.17",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "068",
+      "geometry": null,
+      "properties": {
+        "id": "068",
+        "nombre_crudo": "El Carpintero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333053.08",
+        "y_dibujo": "6440571.75",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "069",
+      "geometry": null,
+      "properties": {
+        "id": "069",
+        "nombre_crudo": "El Cauquen",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333395.89",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "070",
+      "geometry": null,
+      "properties": {
+        "id": "070",
+        "nombre_crudo": "El Ceibo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332872.32",
+        "y_dibujo": "6440233.9",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "071",
+      "geometry": null,
+      "properties": {
+        "id": "071",
+        "nombre_crudo": "El Chañar",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334339.97",
+        "y_dibujo": "6440324.77",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "072",
+      "geometry": null,
+      "properties": {
+        "id": "072",
+        "nombre_crudo": "El Colibri",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333063.29",
+        "y_dibujo": "6440334.25",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "073",
+      "geometry": null,
+      "properties": {
+        "id": "073",
+        "nombre_crudo": "El Espinillo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334227.9",
+        "y_dibujo": "6440211.01",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "074",
+      "geometry": null,
+      "properties": {
+        "id": "074",
+        "nombre_crudo": "El Hornero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334526.17",
+        "y_dibujo": "6440923.68",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "075",
+      "geometry": null,
+      "properties": {
+        "id": "075",
+        "nombre_crudo": "El Jilguero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333134.66",
+        "y_dibujo": "6440980.39",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "076",
+      "geometry": null,
+      "properties": {
+        "id": "076",
+        "nombre_crudo": "El Mirlo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334404.41",
+        "y_dibujo": "6440807.58",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "077",
+      "geometry": null,
+      "properties": {
+        "id": "077",
+        "nombre_crudo": "El Molle",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334541.55",
+        "y_dibujo": "6440057.42",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "078",
+      "geometry": null,
+      "properties": {
+        "id": "078",
+        "nombre_crudo": "El Tala",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334828.53",
+        "y_dibujo": "6440986.72",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "079",
+      "geometry": null,
+      "properties": {
+        "id": "079",
+        "nombre_crudo": "El Tordo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334068.28",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "080",
+      "geometry": null,
+      "properties": {
+        "id": "080",
+        "nombre_crudo": "El Tucan",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334802.03",
+        "y_dibujo": "6440988.31",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "081",
+      "geometry": null,
+      "properties": {
+        "id": "081",
+        "nombre_crudo": "El Zorzal",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334291.72",
+        "y_dibujo": "6440913.05",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "082",
+      "geometry": null,
+      "properties": {
+        "id": "082",
+        "nombre_crudo": "Entre Rios",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333799.91",
+        "y_dibujo": "6442141.75",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "083",
+      "geometry": null,
+      "properties": {
+        "id": "083",
+        "nombre_crudo": "Esteban Echeberria",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333043.49",
+        "y_dibujo": "6442878.46",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "084",
+      "geometry": null,
+      "properties": {
+        "id": "084",
+        "nombre_crudo": "Eva Peron",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334538.67",
+        "y_dibujo": "6441939.17",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "085",
+      "geometry": null,
+      "properties": {
+        "id": "085",
+        "nombre_crudo": "Ex Combatientes",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-05.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334718.59",
+        "y_dibujo": "6442708.61",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "086",
+      "geometry": null,
+      "properties": {
+        "id": "086",
+        "nombre_crudo": "Falucho",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333270.63",
+        "y_dibujo": "6443640.74",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "087",
+      "geometry": null,
+      "properties": {
+        "id": "087",
+        "nombre_crudo": "Famatina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333703.8",
+        "y_dibujo": "6443131.48",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "088",
+      "geometry": null,
+      "properties": {
+        "id": "088",
+        "nombre_crudo": "Felix Luna",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334742.08",
+        "y_dibujo": "6442159.48",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "089",
+      "geometry": null,
+      "properties": {
+        "id": "089",
+        "nombre_crudo": "Ferrara",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334454.5",
+        "y_dibujo": "6441937.28",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "090",
+      "geometry": null,
+      "properties": {
+        "id": "090",
+        "nombre_crudo": "Florencia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334216.44",
+        "y_dibujo": "6441895.04",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "091",
+      "geometry": null,
+      "properties": {
+        "id": "091",
+        "nombre_crudo": "Fray Oro",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333067.5",
+        "y_dibujo": "6442789.79",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "092",
+      "geometry": null,
+      "properties": {
+        "id": "092",
+        "nombre_crudo": "French y Berutti",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333349.32",
+        "y_dibujo": "6443053.4",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "093",
+      "geometry": null,
+      "properties": {
+        "id": "093",
+        "nombre_crudo": "Gabriel Garcia Marquez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334721.8",
+        "y_dibujo": "6441294.8",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "094",
+      "geometry": null,
+      "properties": {
+        "id": "094",
+        "nombre_crudo": "Galileo Galilei",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332023.73",
+        "y_dibujo": "6440283.94",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "095",
+      "geometry": null,
+      "properties": {
+        "id": "095",
+        "nombre_crudo": "General Guido",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332874.4",
+        "y_dibujo": "6443296.68",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "096",
+      "geometry": null,
+      "properties": {
+        "id": "096",
+        "nombre_crudo": "General Pinedo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332999.83",
+        "y_dibujo": "6443629.35",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "097",
+      "geometry": null,
+      "properties": {
+        "id": "097",
+        "nombre_crudo": "Genova",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334434.08",
+        "y_dibujo": "6441773.78",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "098",
+      "geometry": null,
+      "properties": {
+        "id": "098",
+        "nombre_crudo": "Goya",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333672.48",
+        "y_dibujo": "6443642.4",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "099",
+      "geometry": null,
+      "properties": {
+        "id": "099",
+        "nombre_crudo": "Gral Deheza",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333038.61",
+        "y_dibujo": "6444270.35",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "100",
+      "geometry": null,
+      "properties": {
+        "id": "100",
+        "nombre_crudo": "Gral Jose de San Martin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334394.35",
+        "y_dibujo": "6443405.18",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "101",
+      "geometry": null,
+      "properties": {
+        "id": "101",
+        "nombre_crudo": "Halcon Peregrino",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333020.8",
+        "y_dibujo": "6440868.1",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "102",
+      "geometry": null,
+      "properties": {
+        "id": "102",
+        "nombre_crudo": "Hermila Galindo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334535.94",
+        "y_dibujo": "6442366.37",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "103",
+      "geometry": null,
+      "properties": {
+        "id": "103",
+        "nombre_crudo": "Hernando",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333720.26",
+        "y_dibujo": "6444575.71",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "104",
+      "geometry": null,
+      "properties": {
+        "id": "104",
+        "nombre_crudo": "Hierba Buena",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332585.84",
+        "y_dibujo": "6443124.12",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "105",
+      "geometry": null,
+      "properties": {
+        "id": "105",
+        "nombre_crudo": "Hipolito Yrigoyen",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334174.65",
+        "y_dibujo": "6443697.92",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "106",
+      "geometry": null,
+      "properties": {
+        "id": "106",
+        "nombre_crudo": "Hugo Chavez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334727.73",
+        "y_dibujo": "6441582.53",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "107",
+      "geometry": null,
+      "properties": {
+        "id": "107",
+        "nombre_crudo": "Int. Aldo D. Musumeci",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334025.96",
+        "y_dibujo": "6441766.84",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "108",
+      "geometry": null,
+      "properties": {
+        "id": "108",
+        "nombre_crudo": "Intendente Aldo J. Arce",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334203.48",
+        "y_dibujo": "6442936.77",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "109",
+      "geometry": null,
+      "properties": {
+        "id": "109",
+        "nombre_crudo": "Isaac Newton",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332520.09",
+        "y_dibujo": "6440341.43",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "110",
+      "geometry": null,
+      "properties": {
+        "id": "110",
+        "nombre_crudo": "Islas Malvinas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-06.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334239.96",
+        "y_dibujo": "6442493.74",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "111",
+      "geometry": null,
+      "properties": {
+        "id": "111",
+        "nombre_crudo": "Jesus Maria",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333752.94",
+        "y_dibujo": "6444797.51",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "112",
+      "geometry": null,
+      "properties": {
+        "id": "112",
+        "nombre_crudo": "Johannes Gutenberg",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332227.9",
+        "y_dibujo": "6440871.58",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "113",
+      "geometry": null,
+      "properties": {
+        "id": "113",
+        "nombre_crudo": "Jose G. Artigas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334535.76",
+        "y_dibujo": "6441651.89",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "114",
+      "geometry": null,
+      "properties": {
+        "id": "114",
+        "nombre_crudo": "Jose Hernandez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334535.75",
+        "y_dibujo": "6442227.75",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "115",
+      "geometry": null,
+      "properties": {
+        "id": "115",
+        "nombre_crudo": "Jose M. Fallotico",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332464.38",
+        "y_dibujo": "6440262.95",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "116",
+      "geometry": null,
+      "properties": {
+        "id": "116",
+        "nombre_crudo": "Josefina Haydee Avila",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332651.27",
+        "y_dibujo": "6441580.16",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "117",
+      "geometry": null,
+      "properties": {
+        "id": "117",
+        "nombre_crudo": "Juan B. Alberdi",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333169.22",
+        "y_dibujo": "6443399.43",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "118",
+      "geometry": null,
+      "properties": {
+        "id": "118",
+        "nombre_crudo": "Juan C. Velez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333947.56",
+        "y_dibujo": "6441425.51",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "119",
+      "geometry": null,
+      "properties": {
+        "id": "119",
+        "nombre_crudo": "Juan M. Gutierrez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333649.99",
+        "y_dibujo": "6442772.61",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "120",
+      "geometry": null,
+      "properties": {
+        "id": "120",
+        "nombre_crudo": "Juan Manuel de Rosas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334101.73",
+        "y_dibujo": "6443538.73",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "121",
+      "geometry": null,
+      "properties": {
+        "id": "121",
+        "nombre_crudo": "Juan Pablo II",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332718.71",
+        "y_dibujo": "6441151.8",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "122",
+      "geometry": null,
+      "properties": {
+        "id": "122",
+        "nombre_crudo": "Juan Vucetich",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332197.4",
+        "y_dibujo": "6440651.03",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "123",
+      "geometry": null,
+      "properties": {
+        "id": "123",
+        "nombre_crudo": "Juana Azurduy",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334529.33",
+        "y_dibujo": "6441794.87",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "124",
+      "geometry": null,
+      "properties": {
+        "id": "124",
+        "nombre_crudo": "La Brasita",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333619.13",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "125",
+      "geometry": null,
+      "properties": {
+        "id": "125",
+        "nombre_crudo": "La Calera",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333370.47",
+        "y_dibujo": "6444686.26",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "126",
+      "geometry": null,
+      "properties": {
+        "id": "126",
+        "nombre_crudo": "La Carlota",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333599.11",
+        "y_dibujo": "6444369.73",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "127",
+      "geometry": null,
+      "properties": {
+        "id": "127",
+        "nombre_crudo": "La Chuña",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333368.36",
+        "y_dibujo": "6440322.8",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "128",
+      "geometry": null,
+      "properties": {
+        "id": "128",
+        "nombre_crudo": "La Falda",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334484.01",
+        "y_dibujo": "6443754.21",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "129",
+      "geometry": null,
+      "properties": {
+        "id": "129",
+        "nombre_crudo": "La Golondrina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333731.19",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "130",
+      "geometry": null,
+      "properties": {
+        "id": "130",
+        "nombre_crudo": "La Mesilla",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4331862.88",
+        "y_dibujo": "6440849.91",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "131",
+      "geometry": null,
+      "properties": {
+        "id": "131",
+        "nombre_crudo": "La Monjita",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334666.0",
+        "y_dibujo": "6440523.7",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "132",
+      "geometry": null,
+      "properties": {
+        "id": "132",
+        "nombre_crudo": "La Perdiz",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333955.83",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "133",
+      "geometry": null,
+      "properties": {
+        "id": "133",
+        "nombre_crudo": "La Rioja",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333352.37",
+        "y_dibujo": "6442304.95",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "134",
+      "geometry": null,
+      "properties": {
+        "id": "134",
+        "nombre_crudo": "La Tacuarita",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332937.65",
+        "y_dibujo": "6440334.96",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "135",
+      "geometry": null,
+      "properties": {
+        "id": "135",
+        "nombre_crudo": "La Tijereta",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-07.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333501.22",
+        "y_dibujo": "6440981.55",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "136",
+      "geometry": null,
+      "properties": {
+        "id": "136",
+        "nombre_crudo": "Laboulaye",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332793.9",
+        "y_dibujo": "6444142.01",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "137",
+      "geometry": null,
+      "properties": {
+        "id": "137",
+        "nombre_crudo": "Ladislao Biro",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332708.43",
+        "y_dibujo": "6441008.02",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "138",
+      "geometry": null,
+      "properties": {
+        "id": "138",
+        "nombre_crudo": "Las Acacias",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334120.92",
+        "y_dibujo": "6440416.65",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "139",
+      "geometry": null,
+      "properties": {
+        "id": "139",
+        "nombre_crudo": "Las Dalias",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332948.68",
+        "y_dibujo": "6442578.09",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "140",
+      "geometry": null,
+      "properties": {
+        "id": "140",
+        "nombre_crudo": "Las Flores",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332952.81",
+        "y_dibujo": "6442448.5",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "141",
+      "geometry": null,
+      "properties": {
+        "id": "141",
+        "nombre_crudo": "Las Margaritas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332651.81",
+        "y_dibujo": "6443070.79",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "142",
+      "geometry": null,
+      "properties": {
+        "id": "142",
+        "nombre_crudo": "Leonardo Da Vinci",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332366.07",
+        "y_dibujo": "6440702.55",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "143",
+      "geometry": null,
+      "properties": {
+        "id": "143",
+        "nombre_crudo": "Lopez y Planes",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333414.52",
+        "y_dibujo": "6442838.26",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "144",
+      "geometry": null,
+      "properties": {
+        "id": "144",
+        "nombre_crudo": "Los Alamos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333513.47",
+        "y_dibujo": "6440995.16",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "145",
+      "geometry": null,
+      "properties": {
+        "id": "145",
+        "nombre_crudo": "Los Algarrobos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333912.67",
+        "y_dibujo": "6440527.77",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "146",
+      "geometry": null,
+      "properties": {
+        "id": "146",
+        "nombre_crudo": "Los Cedros",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333652.44",
+        "y_dibujo": "6440876.63",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "147",
+      "geometry": null,
+      "properties": {
+        "id": "147",
+        "nombre_crudo": "Los Fresnos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334232.29",
+        "y_dibujo": "6440129.13",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "148",
+      "geometry": null,
+      "properties": {
+        "id": "148",
+        "nombre_crudo": "Los Helechos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332983.54",
+        "y_dibujo": "6442642.28",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "149",
+      "geometry": null,
+      "properties": {
+        "id": "149",
+        "nombre_crudo": "Los Lirios",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332809.73",
+        "y_dibujo": "6442702.1",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "150",
+      "geometry": null,
+      "properties": {
+        "id": "150",
+        "nombre_crudo": "Los Pinos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333227.47",
+        "y_dibujo": "6440630.25",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "151",
+      "geometry": null,
+      "properties": {
+        "id": "151",
+        "nombre_crudo": "Los Robles",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334112.73",
+        "y_dibujo": "6440657.83",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "152",
+      "geometry": null,
+      "properties": {
+        "id": "152",
+        "nombre_crudo": "Luis Agote",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4331908.83",
+        "y_dibujo": "6440955.92",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "153",
+      "geometry": null,
+      "properties": {
+        "id": "153",
+        "nombre_crudo": "Maipu",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333768.04",
+        "y_dibujo": "6441974.11",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "154",
+      "geometry": null,
+      "properties": {
+        "id": "154",
+        "nombre_crudo": "Manuel Belgrano",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334336.15",
+        "y_dibujo": "6443186.07",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "155",
+      "geometry": null,
+      "properties": {
+        "id": "155",
+        "nombre_crudo": "Mar del Plata",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333194.84",
+        "y_dibujo": "6443500.93",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "156",
+      "geometry": null,
+      "properties": {
+        "id": "156",
+        "nombre_crudo": "Marcelino Martinez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333966.98",
+        "y_dibujo": "6441379.01",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "157",
+      "geometry": null,
+      "properties": {
+        "id": "157",
+        "nombre_crudo": "Mario Benedetti",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334533.61",
+        "y_dibujo": "6441507.27",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "158",
+      "geometry": null,
+      "properties": {
+        "id": "158",
+        "nombre_crudo": "Martin Garcia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333243.75",
+        "y_dibujo": "6442167.06",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "159",
+      "geometry": null,
+      "properties": {
+        "id": "159",
+        "nombre_crudo": "Mendoza",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333455.36",
+        "y_dibujo": "6442512.73",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "160",
+      "geometry": null,
+      "properties": {
+        "id": "160",
+        "nombre_crudo": "Mercedes Sosa",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334547.64",
+        "y_dibujo": "6444321.3",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "161",
+      "geometry": null,
+      "properties": {
+        "id": "161",
+        "nombre_crudo": "Messina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334219.39",
+        "y_dibujo": "6442361.6",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "162",
+      "geometry": null,
+      "properties": {
+        "id": "162",
+        "nombre_crudo": "Miceno Villagra",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333873.48",
+        "y_dibujo": "6441237.74",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "163",
+      "geometry": null,
+      "properties": {
+        "id": "163",
+        "nombre_crudo": "Milan",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334402.05",
+        "y_dibujo": "6441216.58",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "164",
+      "geometry": null,
+      "properties": {
+        "id": "164",
+        "nombre_crudo": "Mina Clavero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333582.46",
+        "y_dibujo": "6445189.73",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "165",
+      "geometry": null,
+      "properties": {
+        "id": "165",
+        "nombre_crudo": "Miramar",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-08.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333600.51",
+        "y_dibujo": "6444693.68",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "166",
+      "geometry": null,
+      "properties": {
+        "id": "166",
+        "nombre_crudo": "Modena",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334382.08",
+        "y_dibujo": "6442080.67",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "167",
+      "geometry": null,
+      "properties": {
+        "id": "167",
+        "nombre_crudo": "Moreno",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333013.04",
+        "y_dibujo": "6441412.31",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "168",
+      "geometry": null,
+      "properties": {
+        "id": "168",
+        "nombre_crudo": "Napoles",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334361.58",
+        "y_dibujo": "6441866.25",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "169",
+      "geometry": null,
+      "properties": {
+        "id": "169",
+        "nombre_crudo": "O'higgins",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333403.29",
+        "y_dibujo": "6443635.71",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "170",
+      "geometry": null,
+      "properties": {
+        "id": "170",
+        "nombre_crudo": "Organizacion Nacional",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332898.94",
+        "y_dibujo": "6441851.39",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "171",
+      "geometry": null,
+      "properties": {
+        "id": "171",
+        "nombre_crudo": "Ortega y Gasset",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334725.96",
+        "y_dibujo": "6442302.81",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172",
+      "geometry": null,
+      "properties": {
+        "id": "172",
+        "nombre_crudo": "Pablo Neruda",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334729.37",
+        "y_dibujo": "6441438.45",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173",
+      "geometry": null,
+      "properties": {
+        "id": "173",
+        "nombre_crudo": "Padre Mujica",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334525.4",
+        "y_dibujo": "6442083.12",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "174",
+      "geometry": null,
+      "properties": {
+        "id": "174",
+        "nombre_crudo": "Padua",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334369.22",
+        "y_dibujo": "6441359.77",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "175",
+      "geometry": null,
+      "properties": {
+        "id": "175",
+        "nombre_crudo": "Palermo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334320.65",
+        "y_dibujo": "6441925.29",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "176",
+      "geometry": null,
+      "properties": {
+        "id": "176",
+        "nombre_crudo": "Pasaje 4 Estaciones",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333505.81",
+        "y_dibujo": "6441466.65",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "177",
+      "geometry": null,
+      "properties": {
+        "id": "177",
+        "nombre_crudo": "Pasionaria",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332528.62",
+        "y_dibujo": "6442563.82",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "178",
+      "geometry": null,
+      "properties": {
+        "id": "178",
+        "nombre_crudo": "Pechito Colorado",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334179.16",
+        "y_dibujo": "6440893.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "179",
+      "geometry": null,
+      "properties": {
+        "id": "179",
+        "nombre_crudo": "Peperina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332443.92",
+        "y_dibujo": "6442174.89",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "180",
+      "geometry": null,
+      "properties": {
+        "id": "180",
+        "nombre_crudo": "Pergamino",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333203.55",
+        "y_dibujo": "6443057.99",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "181",
+      "geometry": null,
+      "properties": {
+        "id": "181",
+        "nombre_crudo": "Perugia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334341.2",
+        "y_dibujo": "6441287.5",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "182",
+      "geometry": null,
+      "properties": {
+        "id": "182",
+        "nombre_crudo": "Piquillin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332307.51",
+        "y_dibujo": "6441484.16",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "183",
+      "geometry": null,
+      "properties": {
+        "id": "183",
+        "nombre_crudo": "Pje. Ferreira Da Silva",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334014.83",
+        "y_dibujo": "6441148.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "184",
+      "geometry": null,
+      "properties": {
+        "id": "184",
+        "nombre_crudo": "Pje. Fragata Argentina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333004.46",
+        "y_dibujo": "6442242.77",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "185",
+      "geometry": null,
+      "properties": {
+        "id": "185",
+        "nombre_crudo": "Plaza",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333978.46",
+        "y_dibujo": "6441460.85",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "186",
+      "geometry": null,
+      "properties": {
+        "id": "186",
+        "nombre_crudo": "Potosi",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332732.9",
+        "y_dibujo": "6443637.51",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "187",
+      "geometry": null,
+      "properties": {
+        "id": "187",
+        "nombre_crudo": "Presidente Nestor Kirchner",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334539.81",
+        "y_dibujo": "6441363.6",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "188",
+      "geometry": null,
+      "properties": {
+        "id": "188",
+        "nombre_crudo": "Puerto Argentino",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334217.49",
+        "y_dibujo": "6442793.07",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "189",
+      "geometry": null,
+      "properties": {
+        "id": "189",
+        "nombre_crudo": "Raul Pateras Pescara",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332722.86",
+        "y_dibujo": "6440906.85",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "190",
+      "geometry": null,
+      "properties": {
+        "id": "190",
+        "nombre_crudo": "Rawson",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333384.96",
+        "y_dibujo": "6442905.28",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "191",
+      "geometry": null,
+      "properties": {
+        "id": "191",
+        "nombre_crudo": "Reconquista",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332883.47",
+        "y_dibujo": "6442202.17",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "192",
+      "geometry": null,
+      "properties": {
+        "id": "192",
+        "nombre_crudo": "Republica de Italia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334453.61",
+        "y_dibujo": "6441074.3",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "193",
+      "geometry": null,
+      "properties": {
+        "id": "193",
+        "nombre_crudo": "Resistencia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332866.55",
+        "y_dibujo": "6443634.69",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "194",
+      "geometry": null,
+      "properties": {
+        "id": "194",
+        "nombre_crudo": "Retama",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332442.27",
+        "y_dibujo": "6441779.43",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "195",
+      "geometry": null,
+      "properties": {
+        "id": "195",
+        "nombre_crudo": "Rio Ceballos",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-09.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333256.35",
+        "y_dibujo": "6444680.55",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "196",
+      "geometry": null,
+      "properties": {
+        "id": "196",
+        "nombre_crudo": "Rio Cuarto",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334214.04",
+        "y_dibujo": "6443081.88",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "197",
+      "geometry": null,
+      "properties": {
+        "id": "197",
+        "nombre_crudo": "Rio Tercero",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334202.38",
+        "y_dibujo": "6443368.02",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "198",
+      "geometry": null,
+      "properties": {
+        "id": "198",
+        "nombre_crudo": "Rivadavia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333626.6",
+        "y_dibujo": "6442258.45",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "199",
+      "geometry": null,
+      "properties": {
+        "id": "199",
+        "nombre_crudo": "Roma",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334283.59",
+        "y_dibujo": "6441589.83",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "200",
+      "geometry": null,
+      "properties": {
+        "id": "200",
+        "nombre_crudo": "Romerillo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332542.29",
+        "y_dibujo": "6442216.89",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "201",
+      "geometry": null,
+      "properties": {
+        "id": "201",
+        "nombre_crudo": "Roque Saenz Peña",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332873.52",
+        "y_dibujo": "6441520.7",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "202",
+      "geometry": null,
+      "properties": {
+        "id": "202",
+        "nombre_crudo": "Rosa Mosqueta",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332400.12",
+        "y_dibujo": "6441419.4",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "203",
+      "geometry": null,
+      "properties": {
+        "id": "203",
+        "nombre_crudo": "Rosario",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333100.46",
+        "y_dibujo": "6443168.31",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "204",
+      "geometry": null,
+      "properties": {
+        "id": "204",
+        "nombre_crudo": "Ruta Pcial S-228",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334171.9",
+        "y_dibujo": "6441245.1",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "205",
+      "geometry": null,
+      "properties": {
+        "id": "205",
+        "nombre_crudo": "Ruta Pcial S-273",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333420.84",
+        "y_dibujo": "6442946.21",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "206",
+      "geometry": null,
+      "properties": {
+        "id": "206",
+        "nombre_crudo": "Saint Alfio",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334153.36",
+        "y_dibujo": "6441479.27",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "207",
+      "geometry": null,
+      "properties": {
+        "id": "207",
+        "nombre_crudo": "Salvador Allende",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334727.45",
+        "y_dibujo": "6441726.67",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "208",
+      "geometry": null,
+      "properties": {
+        "id": "208",
+        "nombre_crudo": "Samuel Morse",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332396.99",
+        "y_dibujo": "6440469.26",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "209",
+      "geometry": null,
+      "properties": {
+        "id": "209",
+        "nombre_crudo": "San Expedito",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332990.4",
+        "y_dibujo": "6441077.44",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "210",
+      "geometry": null,
+      "properties": {
+        "id": "210",
+        "nombre_crudo": "San Francisco",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334523.52",
+        "y_dibujo": "6443159.41",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "211",
+      "geometry": null,
+      "properties": {
+        "id": "211",
+        "nombre_crudo": "San Ignacio",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332644.32",
+        "y_dibujo": "6441092.05",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "212",
+      "geometry": null,
+      "properties": {
+        "id": "212",
+        "nombre_crudo": "San Juan",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333293.65",
+        "y_dibujo": "6442181.36",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "213",
+      "geometry": null,
+      "properties": {
+        "id": "213",
+        "nombre_crudo": "San Lorenzo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333703.95",
+        "y_dibujo": "6442144.51",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "214",
+      "geometry": null,
+      "properties": {
+        "id": "214",
+        "nombre_crudo": "San Nicolas",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333311.11",
+        "y_dibujo": "6443034.2",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "215",
+      "geometry": null,
+      "properties": {
+        "id": "215",
+        "nombre_crudo": "San Pedro",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333238.68",
+        "y_dibujo": "6443162.97",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "216",
+      "geometry": null,
+      "properties": {
+        "id": "216",
+        "nombre_crudo": "San Roque",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333895.5",
+        "y_dibujo": "6441134.09",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "217",
+      "geometry": null,
+      "properties": {
+        "id": "217",
+        "nombre_crudo": "Santa Clara",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333248.7",
+        "y_dibujo": "6442342.91",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "218",
+      "geometry": null,
+      "properties": {
+        "id": "218",
+        "nombre_crudo": "Santa Fe",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333718.76",
+        "y_dibujo": "6442047.39",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "219",
+      "geometry": null,
+      "properties": {
+        "id": "219",
+        "nombre_crudo": "Santa Rosa",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333780.62",
+        "y_dibujo": "6444097.21",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "220",
+      "geometry": null,
+      "properties": {
+        "id": "220",
+        "nombre_crudo": "Sargento Cabral",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333373.9",
+        "y_dibujo": "6441607.44",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "221",
+      "geometry": null,
+      "properties": {
+        "id": "221",
+        "nombre_crudo": "Sarmiento",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334048.45",
+        "y_dibujo": "6443156.64",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "222",
+      "geometry": null,
+      "properties": {
+        "id": "222",
+        "nombre_crudo": "Simon Bolivar",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334756.89",
+        "y_dibujo": "6444202.02",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "223",
+      "geometry": null,
+      "properties": {
+        "id": "223",
+        "nombre_crudo": "Siracussa",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334108.4",
+        "y_dibujo": "6442290.69",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "224",
+      "geometry": null,
+      "properties": {
+        "id": "224",
+        "nombre_crudo": "Sta Rosa de Lima",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333390.18",
+        "y_dibujo": "6441114.7",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "225",
+      "geometry": null,
+      "properties": {
+        "id": "225",
+        "nombre_crudo": "Suipacha",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-10.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333978.15",
+        "y_dibujo": "6441861.56",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "226",
+      "geometry": null,
+      "properties": {
+        "id": "226",
+        "nombre_crudo": "Talleres",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333165.91",
+        "y_dibujo": "6442441.46",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "227",
+      "geometry": null,
+      "properties": {
+        "id": "227",
+        "nombre_crudo": "Tanti",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333016.24",
+        "y_dibujo": "6444208.83",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "228",
+      "geometry": null,
+      "properties": {
+        "id": "228",
+        "nombre_crudo": "Thomas Edison",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332093.37",
+        "y_dibujo": "6440289.72",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "229",
+      "geometry": null,
+      "properties": {
+        "id": "229",
+        "nombre_crudo": "Tomillo",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332666.12",
+        "y_dibujo": "6442279.09",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "230",
+      "geometry": null,
+      "properties": {
+        "id": "230",
+        "nombre_crudo": "Tucuman",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333668.26",
+        "y_dibujo": "6442417.71",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "231",
+      "geometry": null,
+      "properties": {
+        "id": "231",
+        "nombre_crudo": "Turin",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334403.44",
+        "y_dibujo": "6441144.92",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "232",
+      "geometry": null,
+      "properties": {
+        "id": "232",
+        "nombre_crudo": "Ugarteche",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333095.83",
+        "y_dibujo": "6442571.78",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "233",
+      "geometry": null,
+      "properties": {
+        "id": "233",
+        "nombre_crudo": "Unasur",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334584.84",
+        "y_dibujo": "6441763.43",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "234",
+      "geometry": null,
+      "properties": {
+        "id": "234",
+        "nombre_crudo": "Union Latinoamerica",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334552.66",
+        "y_dibujo": "6441146.93",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "235",
+      "geometry": null,
+      "properties": {
+        "id": "235",
+        "nombre_crudo": "Valentin Gomez",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332769.69",
+        "y_dibujo": "6443322.89",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "236",
+      "geometry": null,
+      "properties": {
+        "id": "236",
+        "nombre_crudo": "Venecia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334318.78",
+        "y_dibujo": "6441745.25",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "237",
+      "geometry": null,
+      "properties": {
+        "id": "237",
+        "nombre_crudo": "Venezia",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334289.27",
+        "y_dibujo": "6441882.23",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "238",
+      "geometry": null,
+      "properties": {
+        "id": "238",
+        "nombre_crudo": "Victor Jara",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334733.79",
+        "y_dibujo": "6441872.02",
+        "dentro_recorte": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "239",
+      "geometry": null,
+      "properties": {
+        "id": "239",
+        "nombre_crudo": "Victoria",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332747.19",
+        "y_dibujo": "6441343.52",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "240",
+      "geometry": null,
+      "properties": {
+        "id": "240",
+        "nombre_crudo": "Villa Carlos Paz",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334410.62",
+        "y_dibujo": "6443628.49",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "241",
+      "geometry": null,
+      "properties": {
+        "id": "241",
+        "nombre_crudo": "Villa Dolores",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332926.61",
+        "y_dibujo": "6444143.38",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "242",
+      "geometry": null,
+      "properties": {
+        "id": "242",
+        "nombre_crudo": "Villa Maria",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334210.87",
+        "y_dibujo": "6443224.65",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "243",
+      "geometry": null,
+      "properties": {
+        "id": "243",
+        "nombre_crudo": "Virgen de Famatina",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333053.68",
+        "y_dibujo": "6441086.46",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "244",
+      "geometry": null,
+      "properties": {
+        "id": "244",
+        "nombre_crudo": "Virgen de Guadalupe",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332711.58",
+        "y_dibujo": "6441183.13",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "245",
+      "geometry": null,
+      "properties": {
+        "id": "245",
+        "nombre_crudo": "Virgen de Lujan",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333035.25",
+        "y_dibujo": "6441163.59",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "246",
+      "geometry": null,
+      "properties": {
+        "id": "246",
+        "nombre_crudo": "Virgen de Santa Rita",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333934.01",
+        "y_dibujo": "6441265.14",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "247",
+      "geometry": null,
+      "properties": {
+        "id": "247",
+        "nombre_crudo": "Virgen del Carmen",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333728.82",
+        "y_dibujo": "6441053.51",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "248",
+      "geometry": null,
+      "properties": {
+        "id": "248",
+        "nombre_crudo": "Vladimiro Tentori",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4334352.61",
+        "y_dibujo": "6442866.85",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "249",
+      "geometry": null,
+      "properties": {
+        "id": "249",
+        "nombre_crudo": "Washington",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333468.42",
+        "y_dibujo": "6444650.36",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "250",
+      "geometry": null,
+      "properties": {
+        "id": "250",
+        "nombre_crudo": "Yapeyu",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4333537.3",
+        "y_dibujo": "6443640.95",
+        "dentro_recorte": "si"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "251",
+      "geometry": null,
+      "properties": {
+        "id": "251",
+        "nombre_crudo": "Zarzamora",
+        "nombre": "",
+        "tipo": "",
+        "homenaje": "",
+        "estado": "",
+        "nota": "",
+        "fuente": "",
+        "lote": "lote-11.csv",
+        "estado_final": "sin_revisar",
+        "x_dibujo": "4332357.88",
+        "y_dibujo": "6441480.36",
+        "dentro_recorte": "si"
+      }
+    }
+  ]
+}

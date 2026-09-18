@@ -1,0 +1,252 @@
+id,nombre_crudo,nombre,tipo,homenaje,estado,nota,fuente,estado_final,lote,x_dibujo,y_dibujo,dentro_recorte
+001,14 Provincias,,,,en_consulta,No se pudo establecer a que alude el nombre. Consultar a la Municipalidad antes de proponer nota,,en_consulta,lote-01.csv,4333403.18,6442552.13,si
+002,2 de Abril,2 de Abril,calle,fecha,propuesta,Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.,Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.,propuesta,lote-01.csv,4334226.58,6442605.1,si
+003,25 de Mayo,25 de Mayo,calle,fecha,propuesta,Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.,Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.,propuesta,lote-01.csv,4333032.89,6441567.94,si
+004,9 de Julio,9 de Julio,calle,fecha,propuesta,Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.,Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.,propuesta,lote-01.csv,4333528.33,6442299.38,si
+005,Aguila Mora,,,,en_consulta,Posible tilde en Águila. Confirmar grafía oficial y referente antes de proponer el cambio.,,en_consulta,lote-01.csv,4333843.34,6440893.23,si
+006,Almafuerte,Almafuerte,calle,persona,propuesta,Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.,Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.,propuesta,lote-01.csv,4334201.12,6443512.52,si
+007,Almirante Brown,Almirante Brown,calle,persona,propuesta,Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.,Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.,propuesta,lote-01.csv,4332918.5,6443236.63,si
+008,Alsina,,,,en_consulta,Hay varios Alsina en la historia argentina. Confirmar a cual homenajea la calle,,en_consulta,lote-01.csv,4332887.35,6441375.82,si
+009,Anisacate,,,,en_consulta,Anisacate es tambien una localidad de Cordoba. Confirmar si el nombre alude a ella,,en_consulta,lote-01.csv,4333110.14,6445246.41,si
+010,Arrecifes,Arrecifes,calle,lugar,propuesta,Ejemplo de conservación del rótulo; la interpretación del nombre requiere fuente municipal.,Rótulo del plano recibido; se conserva la grafía. Referente del homenaje por confirmar.,propuesta,lote-01.csv,4333670.62,6441482.43,si
+011,Arroyito,,,,,,,sin_revisar,lote-02.csv,4333147.61,6444468.56,si
+012,Arturo Humberto Illia,,,,,,,sin_revisar,lote-02.csv,4334254.32,6443698.03,si
+013,Atahualpa Yupanqui,,,,,,,sin_revisar,lote-02.csv,4334483.67,6442827.01,si
+014,Av Jose Marrero,,,,,,,sin_revisar,lote-02.csv,4333521.1,6441809.85,si
+015,"Av, Virgen de los 3 Cerritos",,,,,,,sin_revisar,lote-02.csv,4332438.71,6441751.3,si
+016,Av. Central,,,,,,,sin_revisar,lote-02.csv,4333140.7,6441439.55,si
+017,Av. Costanera,,,,,,,sin_revisar,lote-02.csv,4332609.92,6441300.63,si
+018,Av. del Parque,,,,,,,sin_revisar,lote-02.csv,4333216.23,6441299.97,si
+019,Av. Jesus de los Linderos,,,,,,,sin_revisar,lote-02.csv,4331981.92,6440858.93,si
+020,Av. Lanza Donatti,,,,,,,sin_revisar,lote-02.csv,4333390.51,6441703.82,si
+021,Av. Los Sauces,,,,,,,sin_revisar,lote-03.csv,4333422.49,6441977.87,si
+022,Av. Virgen,,,,,,,sin_revisar,lote-03.csv,4332844.64,6441168.35,si
+023,Av. Virgen de la Merced,,,,,,,sin_revisar,lote-03.csv,4333407.88,6441115.34,si
+024,Avenida Ascasubi,,,,,,,sin_revisar,lote-03.csv,4333857.33,6443737.08,si
+025,Avenida Yacanto,,,,,,,sin_revisar,lote-03.csv,4334856.94,6442367.91,no
+026,Balnearia,,,,,,,sin_revisar,lote-03.csv,4333485.21,6444693.05,si
+027,Bartolome Mitre,,,,,,,sin_revisar,lote-03.csv,4333971.86,6443787.91,si
+028,Belgrano,,,,,,,sin_revisar,lote-03.csv,4333118.64,6441518.57,si
+029,Bell Ville,,,,,,,sin_revisar,lote-03.csv,4334517.05,6443302.64,si
+030,Bella Vista,,,,,,,sin_revisar,lote-03.csv,4333202.38,6443834.52,si
+031,Benjamin Franklin,,,,,,,sin_revisar,lote-03.csv,4332604.13,6440196.53,no
+032,Bosque Alto,,,,,,,sin_revisar,lote-03.csv,4333270.65,6441194.77,si
+033,Brasil,,,,,,,sin_revisar,lote-03.csv,4333797.72,6443321.2,si
+034,Buchardo,,,,,,,sin_revisar,lote-03.csv,4333021.22,6442360.88,si
+035,Buenos Aires,,,,,,,sin_revisar,lote-03.csv,4333468.0,6442028.61,si
+036,C. Velez,,,,,,,sin_revisar,lote-03.csv,4333959.02,6441366.91,si
+037,Calchaqui,,,,,,,sin_revisar,lote-03.csv,4333135.41,6443636.24,si
+038,Capilla del Monte,,,,,,,sin_revisar,lote-03.csv,4333075.87,6444460.69,si
+039,Carcaraña,,,,,,,sin_revisar,lote-03.csv,4333012.03,6443210.41,si
+040,Carlos Arcusin,,,,,,,sin_revisar,lote-03.csv,4331956.71,6440429.63,no
+041,Carlos Ballestrini,,,,,,,sin_revisar,lote-04.csv,4332764.07,6441851.65,si
+042,Carmen Marcos Gigena,,,,,,,sin_revisar,lote-04.csv,4333962.59,6441407.57,si
+043,Carquejilla,,,,,,,sin_revisar,lote-04.csv,4332352.87,6442067.59,si
+044,Catania,,,,,,,sin_revisar,lote-04.csv,4334289.62,6442222.31,si
+045,Cementerio,,,,,,,sin_revisar,lote-04.csv,4333827.83,6440839.14,si
+046,Charcal,,,,,,,sin_revisar,lote-04.csv,4332337.59,6441364.92,si
+047,Charcas,,,,,,,sin_revisar,lote-04.csv,4333885.98,6441958.36,si
+048,Che Guevara,,,,,,,sin_revisar,lote-04.csv,4334725.17,6442014.23,no
+049,Chilecito,,,,,,,sin_revisar,lote-04.csv,4332658.78,6443347.76,si
+050,Colombia,,,,,,,sin_revisar,lote-04.csv,4333552.93,6443044.99,si
+051,Colonias Unidas,,,,,,,sin_revisar,lote-04.csv,4333093.53,6443606.72,si
+052,Concejal Alfredo Busto,,,,,,,sin_revisar,lote-04.csv,4334338.68,6443011.16,si
+053,Concejal Palacios,,,,,,,sin_revisar,lote-04.csv,4333152.68,6441895.68,si
+054,Concejal Peñaloza,,,,,,,sin_revisar,lote-04.csv,4333953.91,6441333.79,si
+055,Cordoba,,,,,,,sin_revisar,lote-04.csv,4333399.77,6442792.69,si
+056,Corrientes,,,,,,,sin_revisar,lote-04.csv,4333680.19,6442297.49,si
+057,Cosquin,,,,,,,sin_revisar,lote-04.csv,4334054.72,6443653.42,si
+058,Cr. San Agustin,,,,,,,sin_revisar,lote-04.csv,4331673.36,6440898.12,si
+059,Cristiane Quirino,,,,,,,sin_revisar,lote-04.csv,4332038.56,6440258.27,no
+060,Cruz del Eje,,,,,,,sin_revisar,lote-04.csv,4334210.42,6443869.02,si
+061,Cura Brochero,,,,,,,sin_revisar,lote-05.csv,4333775.59,6444994.91,si
+062,de la Merced,,,,,,,sin_revisar,lote-05.csv,4332890.83,6441174.6,si
+063,Dean Funes,,,,,,,sin_revisar,lote-05.csv,4334504.32,6443986.95,si
+064,Derqui,,,,,,,sin_revisar,lote-05.csv,4333204.51,6443709.84,si
+065,Don Brigido Torres,,,,,,,sin_revisar,lote-05.csv,4334111.81,6440769.58,no
+066,Eduardo Galeano,,,,,,,sin_revisar,lote-05.csv,4334555.62,6441219.12,si
+067,El Cardenal,,,,,,,sin_revisar,lote-05.csv,4332793.67,6440320.17,no
+068,El Carpintero,,,,,,,sin_revisar,lote-05.csv,4333053.08,6440571.75,no
+069,El Cauquen,,,,,,,sin_revisar,lote-05.csv,4333395.89,6440893.23,si
+070,El Ceibo,,,,,,,sin_revisar,lote-05.csv,4332872.32,6440233.9,no
+071,El Chañar,,,,,,,sin_revisar,lote-05.csv,4334339.97,6440324.77,no
+072,El Colibri,,,,,,,sin_revisar,lote-05.csv,4333063.29,6440334.25,no
+073,El Espinillo,,,,,,,sin_revisar,lote-05.csv,4334227.9,6440211.01,no
+074,El Hornero,,,,,,,sin_revisar,lote-05.csv,4334526.17,6440923.68,si
+075,El Jilguero,,,,,,,sin_revisar,lote-05.csv,4333134.66,6440980.39,si
+076,El Mirlo,,,,,,,sin_revisar,lote-05.csv,4334404.41,6440807.58,si
+077,El Molle,,,,,,,sin_revisar,lote-05.csv,4334541.55,6440057.42,no
+078,El Tala,,,,,,,sin_revisar,lote-05.csv,4334828.53,6440986.72,no
+079,El Tordo,,,,,,,sin_revisar,lote-05.csv,4334068.28,6440893.23,si
+080,El Tucan,,,,,,,sin_revisar,lote-05.csv,4334802.03,6440988.31,no
+081,El Zorzal,,,,,,,sin_revisar,lote-05.csv,4334291.72,6440913.05,si
+082,Entre Rios,,,,,,,sin_revisar,lote-05.csv,4333799.91,6442141.75,si
+083,Esteban Echeberria,,,,,,,sin_revisar,lote-05.csv,4333043.49,6442878.46,si
+084,Eva Peron,,,,,,,sin_revisar,lote-05.csv,4334538.67,6441939.17,si
+085,Ex Combatientes,,,,,,,sin_revisar,lote-05.csv,4334718.59,6442708.61,no
+086,Falucho,,,,,,,sin_revisar,lote-06.csv,4333270.63,6443640.74,si
+087,Famatina,,,,,,,sin_revisar,lote-06.csv,4333703.8,6443131.48,si
+088,Felix Luna,,,,,,,sin_revisar,lote-06.csv,4334742.08,6442159.48,no
+089,Ferrara,,,,,,,sin_revisar,lote-06.csv,4334454.5,6441937.28,si
+090,Florencia,,,,,,,sin_revisar,lote-06.csv,4334216.44,6441895.04,si
+091,Fray Oro,,,,,,,sin_revisar,lote-06.csv,4333067.5,6442789.79,si
+092,French y Berutti,,,,,,,sin_revisar,lote-06.csv,4333349.32,6443053.4,si
+093,Gabriel Garcia Marquez,,,,,,,sin_revisar,lote-06.csv,4334721.8,6441294.8,no
+094,Galileo Galilei,,,,,,,sin_revisar,lote-06.csv,4332023.73,6440283.94,no
+095,General Guido,,,,,,,sin_revisar,lote-06.csv,4332874.4,6443296.68,si
+096,General Pinedo,,,,,,,sin_revisar,lote-06.csv,4332999.83,6443629.35,si
+097,Genova,,,,,,,sin_revisar,lote-06.csv,4334434.08,6441773.78,si
+098,Goya,,,,,,,sin_revisar,lote-06.csv,4333672.48,6443642.4,si
+099,Gral Deheza,,,,,,,sin_revisar,lote-06.csv,4333038.61,6444270.35,si
+100,Gral Jose de San Martin,,,,,,,sin_revisar,lote-06.csv,4334394.35,6443405.18,si
+101,Halcon Peregrino,,,,,,,sin_revisar,lote-06.csv,4333020.8,6440868.1,si
+102,Hermila Galindo,,,,,,,sin_revisar,lote-06.csv,4334535.94,6442366.37,si
+103,Hernando,,,,,,,sin_revisar,lote-06.csv,4333720.26,6444575.71,si
+104,Hierba Buena,,,,,,,sin_revisar,lote-06.csv,4332585.84,6443124.12,si
+105,Hipolito Yrigoyen,,,,,,,sin_revisar,lote-06.csv,4334174.65,6443697.92,si
+106,Hugo Chavez,,,,,,,sin_revisar,lote-06.csv,4334727.73,6441582.53,no
+107,Int. Aldo D. Musumeci,,,,,,,sin_revisar,lote-06.csv,4334025.96,6441766.84,si
+108,Intendente Aldo J. Arce,,,,,,,sin_revisar,lote-06.csv,4334203.48,6442936.77,si
+109,Isaac Newton,,,,,,,sin_revisar,lote-06.csv,4332520.09,6440341.43,no
+110,Islas Malvinas,,,,,,,sin_revisar,lote-06.csv,4334239.96,6442493.74,si
+111,Jesus Maria,,,,,,,sin_revisar,lote-07.csv,4333752.94,6444797.51,si
+112,Johannes Gutenberg,,,,,,,sin_revisar,lote-07.csv,4332227.9,6440871.58,si
+113,Jose G. Artigas,,,,,,,sin_revisar,lote-07.csv,4334535.76,6441651.89,si
+114,Jose Hernandez,,,,,,,sin_revisar,lote-07.csv,4334535.75,6442227.75,si
+115,Jose M. Fallotico,,,,,,,sin_revisar,lote-07.csv,4332464.38,6440262.95,no
+116,Josefina Haydee Avila,,,,,,,sin_revisar,lote-07.csv,4332651.27,6441580.16,si
+117,Juan B. Alberdi,,,,,,,sin_revisar,lote-07.csv,4333169.22,6443399.43,si
+118,Juan C. Velez,,,,,,,sin_revisar,lote-07.csv,4333947.56,6441425.51,si
+119,Juan M. Gutierrez,,,,,,,sin_revisar,lote-07.csv,4333649.99,6442772.61,si
+120,Juan Manuel de Rosas,,,,,,,sin_revisar,lote-07.csv,4334101.73,6443538.73,si
+121,Juan Pablo II,,,,,,,sin_revisar,lote-07.csv,4332718.71,6441151.8,si
+122,Juan Vucetich,,,,,,,sin_revisar,lote-07.csv,4332197.4,6440651.03,no
+123,Juana Azurduy,,,,,,,sin_revisar,lote-07.csv,4334529.33,6441794.87,si
+124,La Brasita,,,,,,,sin_revisar,lote-07.csv,4333619.13,6440893.23,si
+125,La Calera,,,,,,,sin_revisar,lote-07.csv,4333370.47,6444686.26,si
+126,La Carlota,,,,,,,sin_revisar,lote-07.csv,4333599.11,6444369.73,si
+127,La Chuña,,,,,,,sin_revisar,lote-07.csv,4333368.36,6440322.8,no
+128,La Falda,,,,,,,sin_revisar,lote-07.csv,4334484.01,6443754.21,si
+129,La Golondrina,,,,,,,sin_revisar,lote-07.csv,4333731.19,6440893.23,si
+130,La Mesilla,,,,,,,sin_revisar,lote-07.csv,4331862.88,6440849.91,si
+131,La Monjita,,,,,,,sin_revisar,lote-07.csv,4334666.0,6440523.7,no
+132,La Perdiz,,,,,,,sin_revisar,lote-07.csv,4333955.83,6440893.23,si
+133,La Rioja,,,,,,,sin_revisar,lote-07.csv,4333352.37,6442304.95,si
+134,La Tacuarita,,,,,,,sin_revisar,lote-07.csv,4332937.65,6440334.96,no
+135,La Tijereta,,,,,,,sin_revisar,lote-07.csv,4333501.22,6440981.55,si
+136,Laboulaye,,,,,,,sin_revisar,lote-08.csv,4332793.9,6444142.01,si
+137,Ladislao Biro,,,,,,,sin_revisar,lote-08.csv,4332708.43,6441008.02,si
+138,Las Acacias,,,,,,,sin_revisar,lote-08.csv,4334120.92,6440416.65,no
+139,Las Dalias,,,,,,,sin_revisar,lote-08.csv,4332948.68,6442578.09,si
+140,Las Flores,,,,,,,sin_revisar,lote-08.csv,4332952.81,6442448.5,si
+141,Las Margaritas,,,,,,,sin_revisar,lote-08.csv,4332651.81,6443070.79,si
+142,Leonardo Da Vinci,,,,,,,sin_revisar,lote-08.csv,4332366.07,6440702.55,no
+143,Lopez y Planes,,,,,,,sin_revisar,lote-08.csv,4333414.52,6442838.26,si
+144,Los Alamos,,,,,,,sin_revisar,lote-08.csv,4333513.47,6440995.16,si
+145,Los Algarrobos,,,,,,,sin_revisar,lote-08.csv,4333912.67,6440527.77,no
+146,Los Cedros,,,,,,,sin_revisar,lote-08.csv,4333652.44,6440876.63,si
+147,Los Fresnos,,,,,,,sin_revisar,lote-08.csv,4334232.29,6440129.13,no
+148,Los Helechos,,,,,,,sin_revisar,lote-08.csv,4332983.54,6442642.28,si
+149,Los Lirios,,,,,,,sin_revisar,lote-08.csv,4332809.73,6442702.1,si
+150,Los Pinos,,,,,,,sin_revisar,lote-08.csv,4333227.47,6440630.25,no
+151,Los Robles,,,,,,,sin_revisar,lote-08.csv,4334112.73,6440657.83,no
+152,Luis Agote,,,,,,,sin_revisar,lote-08.csv,4331908.83,6440955.92,si
+153,Maipu,,,,,,,sin_revisar,lote-08.csv,4333768.04,6441974.11,si
+154,Manuel Belgrano,,,,,,,sin_revisar,lote-08.csv,4334336.15,6443186.07,si
+155,Mar del Plata,,,,,,,sin_revisar,lote-08.csv,4333194.84,6443500.93,si
+156,Marcelino Martinez,,,,,,,sin_revisar,lote-08.csv,4333966.98,6441379.01,si
+157,Mario Benedetti,,,,,,,sin_revisar,lote-08.csv,4334533.61,6441507.27,si
+158,Martin Garcia,,,,,,,sin_revisar,lote-08.csv,4333243.75,6442167.06,si
+159,Mendoza,,,,,,,sin_revisar,lote-08.csv,4333455.36,6442512.73,si
+160,Mercedes Sosa,,,,,,,sin_revisar,lote-08.csv,4334547.64,6444321.3,si
+161,Messina,,,,,,,sin_revisar,lote-08.csv,4334219.39,6442361.6,si
+162,Miceno Villagra,,,,,,,sin_revisar,lote-08.csv,4333873.48,6441237.74,si
+163,Milan,,,,,,,sin_revisar,lote-08.csv,4334402.05,6441216.58,si
+164,Mina Clavero,,,,,,,sin_revisar,lote-08.csv,4333582.46,6445189.73,si
+165,Miramar,,,,,,,sin_revisar,lote-08.csv,4333600.51,6444693.68,si
+166,Modena,,,,,,,sin_revisar,lote-09.csv,4334382.08,6442080.67,si
+167,Moreno,,,,,,,sin_revisar,lote-09.csv,4333013.04,6441412.31,si
+168,Napoles,,,,,,,sin_revisar,lote-09.csv,4334361.58,6441866.25,si
+169,O'higgins,,,,,,,sin_revisar,lote-09.csv,4333403.29,6443635.71,si
+170,Organizacion Nacional,,,,,,,sin_revisar,lote-09.csv,4332898.94,6441851.39,si
+171,Ortega y Gasset,,,,,,,sin_revisar,lote-09.csv,4334725.96,6442302.81,no
+172,Pablo Neruda,,,,,,,sin_revisar,lote-09.csv,4334729.37,6441438.45,no
+173,Padre Mujica,,,,,,,sin_revisar,lote-09.csv,4334525.4,6442083.12,si
+174,Padua,,,,,,,sin_revisar,lote-09.csv,4334369.22,6441359.77,si
+175,Palermo,,,,,,,sin_revisar,lote-09.csv,4334320.65,6441925.29,si
+176,Pasaje 4 Estaciones,,,,,,,sin_revisar,lote-09.csv,4333505.81,6441466.65,si
+177,Pasionaria,,,,,,,sin_revisar,lote-09.csv,4332528.62,6442563.82,si
+178,Pechito Colorado,,,,,,,sin_revisar,lote-09.csv,4334179.16,6440893.23,si
+179,Peperina,,,,,,,sin_revisar,lote-09.csv,4332443.92,6442174.89,si
+180,Pergamino,,,,,,,sin_revisar,lote-09.csv,4333203.55,6443057.99,si
+181,Perugia,,,,,,,sin_revisar,lote-09.csv,4334341.2,6441287.5,si
+182,Piquillin,,,,,,,sin_revisar,lote-09.csv,4332307.51,6441484.16,si
+183,Pje. Ferreira Da Silva,,,,,,,sin_revisar,lote-09.csv,4334014.83,6441148.23,si
+184,Pje. Fragata Argentina,,,,,,,sin_revisar,lote-09.csv,4333004.46,6442242.77,si
+185,Plaza,,,,,,,sin_revisar,lote-09.csv,4333978.46,6441460.85,si
+186,Potosi,,,,,,,sin_revisar,lote-09.csv,4332732.9,6443637.51,si
+187,Presidente Nestor Kirchner,,,,,,,sin_revisar,lote-09.csv,4334539.81,6441363.6,si
+188,Puerto Argentino,,,,,,,sin_revisar,lote-09.csv,4334217.49,6442793.07,si
+189,Raul Pateras Pescara,,,,,,,sin_revisar,lote-09.csv,4332722.86,6440906.85,si
+190,Rawson,,,,,,,sin_revisar,lote-09.csv,4333384.96,6442905.28,si
+191,Reconquista,,,,,,,sin_revisar,lote-09.csv,4332883.47,6442202.17,si
+192,Republica de Italia,,,,,,,sin_revisar,lote-09.csv,4334453.61,6441074.3,si
+193,Resistencia,,,,,,,sin_revisar,lote-09.csv,4332866.55,6443634.69,si
+194,Retama,,,,,,,sin_revisar,lote-09.csv,4332442.27,6441779.43,si
+195,Rio Ceballos,,,,,,,sin_revisar,lote-09.csv,4333256.35,6444680.55,si
+196,Rio Cuarto,,,,,,,sin_revisar,lote-10.csv,4334214.04,6443081.88,si
+197,Rio Tercero,,,,,,,sin_revisar,lote-10.csv,4334202.38,6443368.02,si
+198,Rivadavia,,,,,,,sin_revisar,lote-10.csv,4333626.6,6442258.45,si
+199,Roma,,,,,,,sin_revisar,lote-10.csv,4334283.59,6441589.83,si
+200,Romerillo,,,,,,,sin_revisar,lote-10.csv,4332542.29,6442216.89,si
+201,Roque Saenz Peña,,,,,,,sin_revisar,lote-10.csv,4332873.52,6441520.7,si
+202,Rosa Mosqueta,,,,,,,sin_revisar,lote-10.csv,4332400.12,6441419.4,si
+203,Rosario,,,,,,,sin_revisar,lote-10.csv,4333100.46,6443168.31,si
+204,Ruta Pcial S-228,,,,,,,sin_revisar,lote-10.csv,4334171.9,6441245.1,si
+205,Ruta Pcial S-273,,,,,,,sin_revisar,lote-10.csv,4333420.84,6442946.21,si
+206,Saint Alfio,,,,,,,sin_revisar,lote-10.csv,4334153.36,6441479.27,si
+207,Salvador Allende,,,,,,,sin_revisar,lote-10.csv,4334727.45,6441726.67,no
+208,Samuel Morse,,,,,,,sin_revisar,lote-10.csv,4332396.99,6440469.26,no
+209,San Expedito,,,,,,,sin_revisar,lote-10.csv,4332990.4,6441077.44,si
+210,San Francisco,,,,,,,sin_revisar,lote-10.csv,4334523.52,6443159.41,si
+211,San Ignacio,,,,,,,sin_revisar,lote-10.csv,4332644.32,6441092.05,si
+212,San Juan,,,,,,,sin_revisar,lote-10.csv,4333293.65,6442181.36,si
+213,San Lorenzo,,,,,,,sin_revisar,lote-10.csv,4333703.95,6442144.51,si
+214,San Nicolas,,,,,,,sin_revisar,lote-10.csv,4333311.11,6443034.2,si
+215,San Pedro,,,,,,,sin_revisar,lote-10.csv,4333238.68,6443162.97,si
+216,San Roque,,,,,,,sin_revisar,lote-10.csv,4333895.5,6441134.09,si
+217,Santa Clara,,,,,,,sin_revisar,lote-10.csv,4333248.7,6442342.91,si
+218,Santa Fe,,,,,,,sin_revisar,lote-10.csv,4333718.76,6442047.39,si
+219,Santa Rosa,,,,,,,sin_revisar,lote-10.csv,4333780.62,6444097.21,si
+220,Sargento Cabral,,,,,,,sin_revisar,lote-10.csv,4333373.9,6441607.44,si
+221,Sarmiento,,,,,,,sin_revisar,lote-10.csv,4334048.45,6443156.64,si
+222,Simon Bolivar,,,,,,,sin_revisar,lote-10.csv,4334756.89,6444202.02,no
+223,Siracussa,,,,,,,sin_revisar,lote-10.csv,4334108.4,6442290.69,si
+224,Sta Rosa de Lima,,,,,,,sin_revisar,lote-10.csv,4333390.18,6441114.7,si
+225,Suipacha,,,,,,,sin_revisar,lote-10.csv,4333978.15,6441861.56,si
+226,Talleres,,,,,,,sin_revisar,lote-11.csv,4333165.91,6442441.46,si
+227,Tanti,,,,,,,sin_revisar,lote-11.csv,4333016.24,6444208.83,si
+228,Thomas Edison,,,,,,,sin_revisar,lote-11.csv,4332093.37,6440289.72,no
+229,Tomillo,,,,,,,sin_revisar,lote-11.csv,4332666.12,6442279.09,si
+230,Tucuman,,,,,,,sin_revisar,lote-11.csv,4333668.26,6442417.71,si
+231,Turin,,,,,,,sin_revisar,lote-11.csv,4334403.44,6441144.92,si
+232,Ugarteche,,,,,,,sin_revisar,lote-11.csv,4333095.83,6442571.78,si
+233,Unasur,,,,,,,sin_revisar,lote-11.csv,4334584.84,6441763.43,si
+234,Union Latinoamerica,,,,,,,sin_revisar,lote-11.csv,4334552.66,6441146.93,si
+235,Valentin Gomez,,,,,,,sin_revisar,lote-11.csv,4332769.69,6443322.89,si
+236,Venecia,,,,,,,sin_revisar,lote-11.csv,4334318.78,6441745.25,si
+237,Venezia,,,,,,,sin_revisar,lote-11.csv,4334289.27,6441882.23,si
+238,Victor Jara,,,,,,,sin_revisar,lote-11.csv,4334733.79,6441872.02,no
+239,Victoria,,,,,,,sin_revisar,lote-11.csv,4332747.19,6441343.52,si
+240,Villa Carlos Paz,,,,,,,sin_revisar,lote-11.csv,4334410.62,6443628.49,si
+241,Villa Dolores,,,,,,,sin_revisar,lote-11.csv,4332926.61,6444143.38,si
+242,Villa Maria,,,,,,,sin_revisar,lote-11.csv,4334210.87,6443224.65,si
+243,Virgen de Famatina,,,,,,,sin_revisar,lote-11.csv,4333053.68,6441086.46,si
+244,Virgen de Guadalupe,,,,,,,sin_revisar,lote-11.csv,4332711.58,6441183.13,si
+245,Virgen de Lujan,,,,,,,sin_revisar,lote-11.csv,4333035.25,6441163.59,si
+246,Virgen de Santa Rita,,,,,,,sin_revisar,lote-11.csv,4333934.01,6441265.14,si
+247,Virgen del Carmen,,,,,,,sin_revisar,lote-11.csv,4333728.82,6441053.51,si
+248,Vladimiro Tentori,,,,,,,sin_revisar,lote-11.csv,4334352.61,6442866.85,si
+249,Washington,,,,,,,sin_revisar,lote-11.csv,4333468.42,6444650.36,si
+250,Yapeyu,,,,,,,sin_revisar,lote-11.csv,4333537.3,6443640.95,si
+251,Zarzamora,,,,,,,sin_revisar,lote-11.csv,4332357.88,6441480.36,si

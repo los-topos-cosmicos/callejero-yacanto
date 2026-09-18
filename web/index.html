@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Callejero · revisión de nombres</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,sans-serif;color:#19324b;background:#f3f6f8}body{max-width:1140px;margin:auto;padding:34px 22px}h1{font-size:clamp(30px,5vw,48px);letter-spacing:-.04em;margin:12px 0}h2{font-size:19px}p{line-height:1.55}.eyebrow{font-size:12px;font-weight:750;letter-spacing:.12em;color:#167d83}header{max-width:830px}.notice{background:#fff4d8;border-left:4px solid #d79420;padding:14px 18px;border-radius:4px;font-size:14px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}.card,.panel{background:white;border:1px solid #dfe7ec;border-radius:12px;padding:18px}.card strong{display:block;font-size:30px}.card span{font-size:13px}.grid{display:grid;grid-template-columns:1.05fr 1fr;gap:20px}.panel p{font-size:13px;color:#526477}svg{width:100%;height:380px;background:#f7fafb;border-radius:8px}.tools{display:flex;gap:12px;margin:28px 0 14px;flex-wrap:wrap}input,select{font:inherit;padding:11px;border:1px solid #c8d5de;border-radius:7px;background:white}input{flex:1;min-width:180px}label{font-size:13px}table{width:100%;border-collapse:collapse;background:white;font-size:13px}td,th{text-align:left;padding:13px 10px;border-bottom:1px solid #e3e9ee;vertical-align:top}th{background:#edf4f5}td:nth-child(4){max-width:350px}small{font-size:12px;color:#526477}a{color:#126a78}footer{font-size:12px;margin:25px 0}#results{overflow:auto}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}#error{color:#8b2d2d}@media(max-width:720px){.grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}body{padding:22px 12px}}
+</style>
+</head>
+<body>
+<header><div class="eyebrow">PASANTÍA · DOS MESES · UNA HORA POR DÍA HÁBIL</div><h1>Un callejero que se puede revisar.</h1><p>Inventario de nombres, propuestas documentadas y preguntas para la autoridad municipal. Las correcciones adquieren conformidad solo mediante una decisión registrada.</p></header>
+<p class="notice">Localidad y coordenadas geográficas pendientes de verificación. Este visor muestra posiciones relativas del dibujo; no es cartografía oficial ni representa ejes de calles.</p>
+<div id="error" role="alert"></div><section id="cards" class="cards" aria-label="Estado de revisión"></section>
+<div class="grid"><section class="panel"><h2>Posiciones en el dibujo</h2><svg id="plot" viewBox="0 0 500 450" role="img" aria-label="Puntos de referencia en coordenadas del dibujo"></svg><p id="outside"></p></section><section class="panel"><h2>Cómo leer el trabajo</h2><p><b>Propuesta:</b> un nombre o su conservación, con criterio y fuente. Todavía requiere decisión municipal.</p><p><b>En consulta:</b> falta evidencia. La pregunta permanece visible y no se envía como corrección al plano.</p><p><b>Con conformidad:</b> la autoridad aceptó ese texto exacto; el supervisor registró la referencia de la decisión.</p><p>El lote 01 contiene diez ejemplos preparados. No se cuenta como avance realizado por el estudiante.</p><p><a href="calles.csv" download>Descargar inventario CSV</a> · <a href="calles.geojson" download>GeoJSON de atributos</a></p><small>El GeoJSON no tiene geometrías mientras la georreferenciación siga sin verificar.</small></section></div>
+<div class="tools"><input id="search" type="search" aria-label="Buscar calle, ID o fuente" placeholder="Buscar calle, ID o fuente…"><select id="filter" aria-label="Filtrar por estado"><option value="">Todos los estados</option><option value="sin_revisar">Sin revisar</option><option value="propuesta">Propuesta</option><option value="en_consulta">En consulta</option><option value="aprobada">Con conformidad</option></select></div>
+<p id="count" aria-live="polite"></p><div id="results"><table><thead><tr><th>ID</th><th>Nombre / propuesta</th><th>Estado</th><th>Nota y fuente</th></tr></thead><tbody id="rows"></tbody></table></div>
+<footer>Proyecto educativo · <a href="https://github.com/los-topos-cosmicos/callejero-yacanto">Repositorio y metodología</a>. Los datos del plano no reciben una licencia abierta por este visor.</footer>
+<script>
+'use strict';
+const colors={sin_revisar:'#a5b3bf',propuesta:'#16817b',en_consulta:'#d79420',aprobada:'#345cce'};
+const names={sin_revisar:'Sin revisar',propuesta:'Propuesta',en_consulta:'En consulta',aprobada:'Con conformidad'};
+let streets=[];
+function node(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
+function normalize(s){return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+function render(){
+ const term=normalize(document.querySelector('#search').value),state=document.querySelector('#filter').value;
+ const selected=streets.filter(r=>(!state||r.estado_final===state)&&normalize([r.id,r.nombre,r.nombre_crudo,r.fuente,r.nota].join(' ')).includes(term));
+ const body=document.querySelector('#rows');body.replaceChildren();
+ for(const r of selected){const tr=node('tr');tr.append(node('td',r.id));const title=node('td');title.append(node('b',r.nombre||r.nombre_crudo));if(r.nombre&&r.nombre!==r.nombre_crudo)title.append(node('p','Antes: '+r.nombre_crudo));tr.append(title);
+ const status=node('td');const dot=node('span',undefined,'dot');dot.style.background=colors[r.estado_final];status.append(dot,document.createTextNode(names[r.estado_final]));tr.append(status);
+ const details=node('td');details.append(node('div',r.nota||'—'));if(r.fuente)details.append(node('p','Fuente / criterio: '+r.fuente));tr.append(details);body.append(tr);}
+ document.querySelector('#count').textContent=selected.length+' de '+streets.length+' calles';
+ const svg=document.querySelector('#plot');svg.replaceChildren();
+ const xs=streets.map(r=>+r.x_dibujo),ys=streets.map(r=>+r.y_dibujo),minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
+ const scale=Math.min(450/(maxX-minX||1),400/(maxY-minY||1));
+ for(const r of selected){const c=document.createElementNS('http://www.w3.org/2000/svg','circle');c.setAttribute('cx',25+(+r.x_dibujo-minX)*scale);c.setAttribute('cy',425-(+r.y_dibujo-minY)*scale);c.setAttribute('r',r.dentro_recorte==='si'?3:4);c.setAttribute('fill',colors[r.estado_final]);if(r.dentro_recorte!=='si'){c.setAttribute('stroke','#19324b');c.setAttribute('stroke-width','1');}const t=document.createElementNS(c.namespaceURI,'title');t.textContent=r.id+' · '+(r.nombre||r.nombre_crudo)+' · '+names[r.estado_final];c.append(t);svg.append(c);}
+}
+fetch('datos.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar datos.json');return r.json();}).then(data=>{streets=data.calles;for(const state of Object.keys(names)){const c=node('div',undefined,'card');c.append(node('strong',data.resumen[state]),node('span',names[state]));document.querySelector('#cards').append(c);}document.querySelector('#outside').textContent='Se incluyen las '+data.resumen.fuera_recorte+' calles fuera del recorte anterior, marcadas con borde. Su ubicación requiere revisión.';render();}).catch(e=>{document.querySelector('#error').textContent=e.message+'. Iniciar el servidor local según el README.';});
+document.querySelector('#search').addEventListener('input',render);document.querySelector('#filter').addEventListener('change',render);
+</script>
+</body></html>

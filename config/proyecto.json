@@ -1,0 +1,17 @@
+{
+  "titulo": "Callejero · propuesta municipal",
+  "repositorio": "https://github.com/los-topos-cosmicos/callejero-yacanto",
+  "localidad": "Por confirmar con la autoridad",
+  "institucion": "Por completar",
+  "estudiante": "Por completar",
+  "docente_autoridad": "Por completar",
+  "supervisor": "Por completar",
+  "fecha_inicio": null,
+  "fecha_fin": null,
+  "duracion_meses": 2,
+  "horas_por_dia_habil": 1,
+  "sesiones_base": 40,
+  "localidad_confirmada": false,
+  "prueba_autocad_en_copia": false,
+  "dwg_sha256": "eaf9842736b4419db24dff7f699927a6cbb0d5ca58bb3c71aabfea0bb2914c8b"
+}

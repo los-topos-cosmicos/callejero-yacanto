@@ -1,0 +1,41 @@
+name: Validar callejero
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    name: validar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt -r requirements-extraccion.txt
+      - name: Validar todos los datos
+        run: python scripts/validar.py
+      - name: Probar las reglas de seguridad y los generadores
+        run: python -m unittest discover -s tests -v
+      - name: Generar visor, avance y entrega
+        run: |
+          python scripts/construir.py
+          python scripts/previsualizar.py
+          python scripts/generar_entrega.py
+          python scripts/generar_propuesta.py
+      - name: Guardar validación y entregables para revisión
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: revision-${{ github.sha }}
+          path: |
+            build/
+            propuesta/propuesta_pasantia.pdf
+          if-no-files-found: warn
+          retention-days: 30

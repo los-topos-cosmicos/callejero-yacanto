@@ -1,0 +1,2 @@
+# CALLEJERO|1|APROBADAS
+# handle|texto_actual|texto_nuevo

@@ -1,0 +1,10 @@
+# Requiere usuario con acceso Write y reglas sobre main que exijan revisión de CODEOWNERS.
+/datos/crudo/ @artfisica
+/datos/conformidad.csv @artfisica
+/scripts/ @artfisica
+/tests/ @artfisica
+/entrega/ @artfisica
+/.github/ @artfisica
+/config/ @artfisica
+/requirements*.txt @artfisica
+/web/index.html @artfisica

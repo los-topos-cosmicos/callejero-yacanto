@@ -1,0 +1,47 @@
+{
+  "resumen": {
+    "total": 251,
+    "rotulos": 1102,
+    "sin_revisar": 241,
+    "propuesta": 6,
+    "en_consulta": 4,
+    "aprobada": 0,
+    "fuera_recorte": 39
+  },
+  "insumos_sha256": {
+    "datos/conformidad.csv": "db1721df00cf1983e018434a2b88ee031378378b19643c5e641cf22e5d8c7c91",
+    "datos/crudo/calles_crudo.csv": "7e36c3a7d5cf60d669186ff99aa5ae438cf616389a406883c60ee9e51ea359e9",
+    "datos/crudo/etiquetas.csv": "8e358c8d068a9931e5c62a32d4c9c0e290d0b3abbf8a2254d4bb4aba8c6a528f",
+    "datos/lotes/lote-01.csv": "b96dae02306ebb85860d4160d142a6ee43b7f5bf9657ee5ae68a0c8e30a5d833",
+    "datos/lotes/lote-02.csv": "b036ba004eea3bc133a3596422b4af9504c2e97333fa3b9bacfdfa935f886d16",
+    "datos/lotes/lote-03.csv": "f503aa2f93397d2f83ea82fd5990cb08a06fa28afdfff36b217cab78df9354f7",
+    "datos/lotes/lote-04.csv": "44ee87b201581e5d63e01e519f69c0bc3face87201acde7e2eae07d32efee397",
+    "datos/lotes/lote-05.csv": "6e7c3a57398a8f07c3fc55ae04a6e668a7ecaa61cb8fdd4eb253923c3d25f239",
+    "datos/lotes/lote-06.csv": "d1ae8e24a013b49fe8c303f62695fdfb0e4423cfed8ce193e21a85993a92be34",
+    "datos/lotes/lote-07.csv": "9c541979c06b3346c5a7f954b09197607c491f28dabaeffa08e034e1cb9f6c03",
+    "datos/lotes/lote-08.csv": "45b7493ecb0deb911da86c986c0eadec8a210d7c75d186d17c3a2e706484bcbe",
+    "datos/lotes/lote-09.csv": "4b4e95c11565bff9d28b16cabf420647ac25deedf3d4fffccff6a897beadccaf",
+    "datos/lotes/lote-10.csv": "cb3b99c4c2f871d56c95765f51af91af7ff5637b3efe2d02e267994d7bdbc70b",
+    "datos/lotes/lote-11.csv": "4700efaadfadf05304ea99b07864690251596e53c617e058b0eb664456250dbf",
+    "config/proyecto.json": "1dbc6822eb044a73967bdca8303dab41817680d1afc62a19ba4a91d0265527c7"
+  },
+  "dwg_sha256_declarado": "eaf9842736b4419db24dff7f699927a6cbb0d5ca58bb3c71aabfea0bb2914c8b",
+  "autocad_ejecutado_por_generador": false,
+  "georreferenciacion_verificada": false,
+  "salidas_sha256": {
+    "ACTA_PRUEBA_CAD.md": "5aa2c2e2dde49955a235ec181c6e4afac9a6bec4ca363fb9bc9e1d63cd31fb24",
+    "INSTRUCCIONES.md": "2cd771e98f7ceaee3b6be0ac21c37162cb1f249f51aefd23ab618509a6e37ce3",
+    "actualizaciones_aprobadas.csv": "5e86fee2a966602a9144da900d41e3bac41d8dc0af1a89efe52581bc977c0900",
+    "actualizaciones_aprobadas_cp1252.txt": "f2cd0dfdb275e94b10e760d44ba38300e039cf176ed76a56c1abb74f5c6fe28f",
+    "actualizaciones_aprobadas_utf8.txt": "272d432fd751d66f8ba558f9aec9bdaee995c21401995c80ecd829c5429d6856",
+    "actualizar_calles.lsp": "8c10f7e9c74c906f6c0ae15941268726aca3b54fe4f252d845400315569af40a",
+    "avance.png": "5aa110caf224881b11bc098fad76923bda5af9df6406ecbf828c9af8c9653983",
+    "callejero.geojson": "3dba843e00a64c34e72c58a21cad4f5b0eb7601696908e414efb535eec8f9467",
+    "consultas_pendientes.csv": "da30acedbf1502aa67966d21c7b22cc7311b732e9178963e313b30c735c3dd56",
+    "informe_de_cambios.md": "37c8d9b6530941248935d760f773558331655780d3740c97b12c99df1eb0dbb1",
+    "informe_de_cambios.pdf": "d74354642aac59c34d00f72805470b881fc5bbc9f658f84147b2a22154583542",
+    "inventario_completo.csv": "658bf7d7c4143382a8cbf39e0989467ae7d5eaa47dc0bfdda346cdbb11b04379",
+    "propuestas_por_rotulo.csv": "5e86fee2a966602a9144da900d41e3bac41d8dc0af1a89efe52581bc977c0900",
+    "propuestas_simulacion_utf8.txt": "ff3c1e7e546217fdb3849cee0df09045ec269810fc34e23e843721143ab59e45"
+  }
+}

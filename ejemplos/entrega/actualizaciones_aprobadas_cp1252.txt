@@ -1,0 +1,2 @@
+# CALLEJERO|1|AUXILIAR_CP1252
+# handle|texto_actual|texto_nuevo

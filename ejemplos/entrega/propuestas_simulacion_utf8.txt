@@ -1,0 +1,2 @@
+# CALLEJERO|1|SIMULACION
+# handle|texto_actual|texto_nuevo
