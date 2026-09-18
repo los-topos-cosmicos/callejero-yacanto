@@ -144,7 +144,8 @@ def comentar(client,event):
                '**Círculo naranja:** fila modificada en este PR, incluso si solo cambió su nota o fuente. '
                'El color interior conserva su estado: verde, propuesta; ámbar, consulta; '
                'azul, conformidad municipal; gris, sin revisar.\n\n'
-               'El gráfico incluye los ejemplos del lote 01. Un control correcto comprueba las reglas; '
+               'El gráfico muestra el estado de todo el callejero, no solo las filas de este PR. '
+               'Un control correcto comprueba las reglas; '
                'el supervisor todavía revisa las fuentes y las preguntas. Incorporar el PR no aprueba un nombre.')
     else:
         body+=('**Esta versión no tiene una vista validada.** Abrí el enlace de controles, '
