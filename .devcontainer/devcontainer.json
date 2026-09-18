@@ -1,0 +1,46 @@
+{
+  "name": "Callejero - pasantía en el navegador",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "remoteUser": "vscode",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "remoteEnv": {
+    "PATH": "${containerWorkspaceFolder}/.venv/bin:${containerEnv:PATH}",
+    "VIRTUAL_ENV": "${containerWorkspaceFolder}/.venv",
+    "MPLCONFIGDIR": "${containerWorkspaceFolder}/build/.matplotlib"
+  },
+  "postCreateCommand": "bash .devcontainer/preparar.sh",
+  "waitFor": "postCreateCommand",
+  "postStartCommand": ".venv/bin/python scripts/codespaces.py iniciar",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Callejero - vista de trabajo",
+      "onAutoForward": "notify",
+      "protocol": "http"
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["docs/CODESPACES_ESTUDIANTE.md", "datos/lotes/lote-02.csv"]
+    },
+    "vscode": {
+      "extensions": ["ms-python.python", "GitHub.vscode-pull-request-github"],
+      "settings": {
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "editor.wordWrap": "on",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}

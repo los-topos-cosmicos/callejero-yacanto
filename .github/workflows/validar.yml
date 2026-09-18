@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-python@v5
         with:
@@ -24,11 +25,25 @@ jobs:
       - name: Probar las reglas de seguridad y los generadores
         run: python -m unittest discover -s tests -v
       - name: Generar visor, avance y entrega
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: |
           python scripts/construir.py
-          python scripts/previsualizar.py
+          if [ "$GITHUB_EVENT_NAME" = 'pull_request' ]; then
+            python scripts/previsualizar.py --base "$BASE_SHA"
+          else
+            python scripts/previsualizar.py
+          fi
           python scripts/generar_entrega.py
           python scripts/generar_propuesta.py
+      - name: Guardar la imagen de este PR
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: vista-pr-${{ github.event.pull_request.head.sha }}
+          path: build/avance.png
+          if-no-files-found: error
+          retention-days: 7
       - name: Guardar validación y entregables para revisión
         if: always()
         uses: actions/upload-artifact@v4

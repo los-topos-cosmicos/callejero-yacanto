@@ -1,14 +1,20 @@
-# Empezar aquí
+# Todo el trabajo del estudiante se hace en GitHub Codespaces
 
-Este paquete se prepara para `los-topos-cosmicos/callejero-yacanto`, el repositorio público que ya creaste. Descomprimirlo y subir el contenido de la carpeta, no el ZIP como archivo único.
+**Estudiante:** abrí [tu entorno en el navegador](https://codespaces.new/los-topos-cosmicos/callejero-yacanto?quickstart=1) y seguí [la guía paso a paso](docs/CODESPACES_ESTUDIANTE.md). No necesitás instalar Python, Git, VS Code, Docker ni AutoCAD en tu computadora.
 
-1. **Leer la propuesta:** `propuesta/propuesta_pasantia.pdf`. Son dos meses calendario, una hora por día hábil; las 40 sesiones son el núcleo ajustable al calendario real.
-2. **Completar datos institucionales:** editar `config/proyecto.json` (estudiante, referente, supervisor, localidad y fechas). No marcar una comprobación que todavía no se hizo. Regenerar con `python scripts/generar_propuesta.py`.
-3. **Revisar qué será público:** están los rótulos, coordenadas heredadas y notas. Los originales, firmas, calificaciones y documentos internos quedan fuera del repositorio.
-4. **Subir:** seguir `docs/SUBIR_A_GITHUB.md`. Incluye un script de primer push que configura tu usuario como responsable; nunca fuerza un push.
-5. **Proteger:** exigir PR, una aprobación y el check `validar` en `main`. CODEOWNERS por sí solo no restringe cambios. No permitir que el estudiante eluda las reglas.
-6. **Comenzar:** leer `docs/PLAN_40_HORAS.md`, revisar el lote 01 juntos y abrir las tareas de `ISSUES.md`.
+**Supervisor:** el repositorio ya está subido. Antes de la primera sesión, revisá acceso y disponibilidad de Codespaces y probá el entorno una vez según [CODESPACES_SUPERVISOR.md](docs/CODESPACES_SUPERVISOR.md).
 
-No hace falta AutoCAD para iniciar la pasantía. Su prueba en copia es necesaria antes de considerar la aplicación de correcciones al plano. Si la autoridad no aprueba nombres al finalizar, se entregan propuestas y consultas, sin aplicar cambios pendientes.
+En Codespaces quedan preparados Python 3.12, las dependencias, las tareas de validación y entrega, el visor y el control de versiones. La guía y el lote de trabajo se abren al crear el espacio. La configuración pertenece al repositorio y se aplica en GitHub.
 
-El informe de `ejemplos/entrega/` es una fotografía del estado inicial, no una entrega municipal validada. No atribuir los diez ejemplos al trabajo del estudiante.
+## Orden para empezar
+
+1. Leer `propuesta/propuesta_pasantia.pdf`: dos meses calendario, una hora por día hábil y 40 sesiones base ajustables al calendario real.
+2. Completar lo conocido en `config/proyecto.json` con el supervisor. Regenerar mediante **Terminal → Run Task → Callejero: Regenerar propuesta PDF**.
+3. Estudiar el lote 01 y [el caso explicado](docs/APRENDER_CON_UN_CASO.md). No contarlos como producción del estudiante.
+4. Asignar la primera tarea de `ISSUES.md`, crear una rama y trabajar en un grupo pequeño del lote 02.
+5. Validar, hacer commit y push, y abrir un PR desde el navegador.
+6. Al terminar la hora, dejar una bitácora y detener el Codespace desde https://github.com/codespaces.
+
+Los originales, firmas y documentación interna quedan fuera del repositorio público. La prueba en AutoCAD corresponde al operador municipal y se hace sobre una copia: no exige que el estudiante instale nada ni impide iniciar su aprendizaje.
+
+Si querés publicar el visor en Pages, configurá **Settings → Pages → Source: GitHub Actions** y seguí `docs/SUBIR_A_GITHUB.md`. La carpeta `/docs` contiene guías; el workflow publica `web/`.

@@ -1,0 +1,31 @@
+# Este workflow se carga desde main después de terminar la validación.
+# No ejecuta scripts ni instala dependencias del PR con permisos de escritura.
+name: Comentar vista previa
+on:
+  workflow_run:
+    workflows: [Validar callejero]
+    types: [completed]
+permissions:
+  contents: read
+concurrency:
+  group: vista-previa-${{ github.event.workflow_run.head_branch }}
+  cancel-in-progress: false
+jobs:
+  comentar:
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - name: Publicar imagen y actualizar el comentario
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/comentar_preview.py

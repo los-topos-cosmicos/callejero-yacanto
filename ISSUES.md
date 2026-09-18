@@ -2,13 +2,13 @@
 
 Crear cada issue copiando su título y cuerpo. Los números siguientes son ordinales del plan, no números asignados por GitHub. No se crearon issues remotas automáticamente. No publicar calificaciones ni datos personales.
 
-## 01 · Preparar entorno y entender el proyecto
+## 01 · Abrir Codespaces y entender el proyecto
 
 Semana 1 · sesiones 1–5
 
-Leer README, propuesta y límites. Ejecutar validación. Explicar propuesta, consulta y conformidad. Abrir un PR pequeño de documentación.
+Abrir el Codespace en el navegador, leer la guía y reconocer sus paneles. Usar Terminal → Run Task → Callejero: Validar datos. Leer la propuesta y sus límites. Explicar propuesta, consulta y conformidad. Abrir un PR pequeño de documentación.
 
-- [ ] Entorno preparado
+- [ ] Codespace preparado automáticamente, sin instalaciones locales
 - [ ] Lote 01 explicado con un caso dudoso
 - [ ] PR revisado y corregido
 

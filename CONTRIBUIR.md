@@ -24,19 +24,18 @@ Guardar como CSV UTF-8, separado por comas, con la cabecera exacta. Usar comilla
 
 La rutina CAD solo admite texto plano. Por eso se rechazan `|`, barra invertida, llaves, `%`, caracteres invisibles y nombres que no se pueden representar en el auxiliar Windows-1252. Esto es una restricción del procedimiento de entrega elegido; no significa que todos los DWG sean incapaces de contener Unicode. Un caso válido que no entra en ese contrato se eleva a revisión manual.
 
-## Una contribución
+## Una contribución, toda en el navegador
 
-```bash
-git switch main
-git pull --ff-only
-git switch -c lote-02-primer-grupo
-# editar el CSV
-python scripts/validar.py
-git add datos/lotes/lote-02.csv
-git commit -m "Revisar primeras calles del lote 02 y registrar consultas"
-git push -u origin lote-02-primer-grupo
-```
+1. Abrir el Codespace y crear una rama con el nombre de la tarea.
+2. Editar pocas filas y guardar.
+3. Usar **Terminal → Run Task → Callejero: Validar datos**.
+4. Revisar el diff en **Source Control**, seleccionar los archivos, escribir el mensaje y hacer **Commit**.
+5. Usar **Publish Branch / Push** y abrir un PR en GitHub.
 
-Abrir un Pull Request, explicar fuentes y enlazar la issue. Usar `Closes #N` solo si se completa toda la tarea. En Actions → ejecución → Artifacts se descarga la validación, el gráfico y la entrega generada. Cuando falla la validación, el artefacto contiene sus mensajes; no se exportan datos inválidos.
+La [guía de Codespaces](docs/CODESPACES_ESTUDIANTE.md) detalla cada clic. No hay instalaciones ni claves que configurar en la computadora del estudiante.
+
+En el PR, explicar las fuentes y enlazar la issue. Usar `Closes #N` solo si se completa toda la tarea. En Actions → ejecución → Artifacts se descarga la validación y la entrega generada. Si la validación falla, el artefacto conserva sus mensajes y no se exportan datos inválidos.
+
+El comentario de vista previa muestra las filas modificadas con un círculo naranja. Si falla un control, indica cómo revisar el error. Ver [cómo leer la devolución](docs/VISTAS_PREVIAS.md).
 
 El supervisor revisa contenido, no solo el check verde. Una fuente escrita puede ser débil: la validación comprueba estructura y coherencia, no verdad histórica ni competencia legal de quien decide.

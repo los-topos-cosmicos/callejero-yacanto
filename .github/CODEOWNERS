@@ -8,3 +8,5 @@
 /config/ @artfisica
 /requirements*.txt @artfisica
 /web/index.html @artfisica
+/.devcontainer/ @artfisica
+/.vscode/ @artfisica
