@@ -38,12 +38,17 @@ class Proyecto(unittest.TestCase):
         a.update(overrides);escribir_csv(self.root/'datos/conformidad.csv',[a],CONFORMIDAD)
     def test_baseline_counts_and_no_approval(self):
         data=cargar(self.root);s=resumen(data)
-        self.assertEqual((s['total'],s['rotulos'],s['aprobada'],s['en_consulta']),(251,1102,0,4))
+        # 251 calles y 1102 rótulos salen de la extracción: no cambian con el avance.
+        self.assertEqual((s['total'],s['rotulos']),(251,1102))
+        # Sin conformidad registrada no hay nada aprobado, esté como esté el avance.
+        self.assertEqual(s['aprobada'],0)
         self.assertEqual(cambios(data,True),[])
     def test_unapproved_changes_never_enter_approved_payload(self):
+        # Se mide el incremento, no el total: los lotes avanzan con el trabajo.
+        antes=len(cambios(cargar(self.root),False))
         self.propose();data=cargar(self.root)
         self.assertEqual(cambios(data,True),[])
-        self.assertEqual(len(cambios(data,False)),9)
+        self.assertEqual(len(cambios(data,False))-antes,9)
     def test_exact_approved_accent_reaches_all_9_handles(self):
         key=self.propose();self.approve(key);data=cargar(self.root)
         changes=cambios(data,True);self.assertEqual(len(changes),9)
