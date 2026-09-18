@@ -41,12 +41,19 @@ class Proyecto(unittest.TestCase):
         # calles están propuestas o en consulta: eso crece con el trabajo del
         # pasante y haría fallar su PR.
         data=cargar(self.root);s=resumen(data)
+    def test_baseline_counts_and_no_approval(self):
+        data=cargar(self.root);s=resumen(data)
+        # 251 calles y 1102 rótulos salen de la extracción: no cambian con el avance.
         self.assertEqual((s['total'],s['rotulos']),(251,1102))
+        # Sin conformidad registrada no hay nada aprobado, esté como esté el avance.
         self.assertEqual(s['aprobada'],0)
         self.assertEqual(cambios(data,True),[])
     def test_unapproved_changes_never_enter_approved_payload(self):
-        # Se mide el incremento, no el total, por la misma razón.
+        # Se mide el incremento, no el total: los lotes avanzan con el trabajo.
         antes=len(cambios(cargar(self.root),False))
+        self.propose();data=cargar(self.root)
+        self.assertEqual(cambios(data,True),[])
+        self.assertEqual(len(cambios(data,False))-antes,9)        antes=len(cambios(cargar(self.root),False))
         self.propose();data=cargar(self.root)
         self.assertEqual(cambios(data,True),[])
         self.assertEqual(len(cambios(data,False))-antes,9)
