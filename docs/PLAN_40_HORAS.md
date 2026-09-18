@@ -2,6 +2,12 @@
 
 Se acuerdan inicio y cierre por **meses calendario**. El siguiente plan organiza 40 sesiones; fines de semana y feriados no son días de trabajo. Al completar las fechas, la institución confirma cuántas sesiones caben realmente. Los días hábiles adicionales se usan como margen; si hay menos de 40, se reduce el volumen de calles, preservando aprendizaje, revisión y cierre.
 
+## Entorno: solo navegador
+
+Todas las sesiones del estudiante ocurren en GitHub Codespaces: abrir archivos, editar CSV, ejecutar tareas, revisar gráficos, generar informes y enviar PR. El repositorio prepara Python y dependencias automáticamente. El supervisor comprueba acceso y disponibilidad antes de la sesión 1; el estudiante no instala nada en su computadora.
+
+Cada día se reanuda el mismo Codespace. Al terminar se guardan y suben los cambios y se detiene el espacio desde GitHub. Ver [guía del estudiante](CODESPACES_ESTUDIANTE.md).
+
 ## Compromisos y metas
 
 - Resultado mínimo: entorno utilizable, un lote nuevo revisado con fuentes, consultas claras, historial de revisión, una mejora pequeña de herramienta y entrega final explicada.
@@ -17,7 +23,7 @@ Rutina diaria: **10 min de lectura + 40 min de trabajo + 10 min de validación y
 | Semana | Sesión | Actividad | Evidencia al cerrar la hora |
 |---|---:|---|---|
 | 1 | 1 | Presentación de objetivo, actores y límites | Objetivo explicado con palabras propias |
-| 1 | 2 | Preparar entorno y ejecutar validación | Comando ejecutado y resultado leído |
+| 1 | 2 | Abrir Codespaces preparado y ejecutar Validar datos | Tarea ejecutada desde el menú y resultado leído |
 | 1 | 3 | Leer un CSV, un handle y el lote 01 | Explicar propuesta frente a consulta |
 | 1 | 4 | Crear rama y PR de práctica sobre documentación | PR pequeño y comprensible |
 | 1 | 5 | Revisar práctica con supervisor | Corrección y breve bitácora |

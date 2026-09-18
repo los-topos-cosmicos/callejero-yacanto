@@ -1,7 +1,14 @@
 {
   "titulo": "Callejero · propuesta municipal",
   "repositorio": "https://github.com/los-topos-cosmicos/callejero-yacanto",
-  "localidad": "Por confirmar con la autoridad",
+  "localidad": "Villa Yacanto, Córdoba, Argentina",
+  "ubicacion_referencia": {
+    "maps_url": "https://maps.app.goo.gl/7nQ2W2qGBmtEGNKU6",
+    "latitud": -32.1057442,
+    "longitud": -64.7540869,
+    "fuente": "Enlace de Google Maps proporcionado por el coordinador el 2026-09-18",
+    "uso": "Ubicar la localidad; no es un punto de control del plano"
+  },
   "institucion": "Por completar",
   "estudiante": "Por completar",
   "docente_autoridad": "Por completar",

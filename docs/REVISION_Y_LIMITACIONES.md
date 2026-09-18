@@ -16,7 +16,7 @@ El paquete anterior mejoró varios controles, pero no justificaba afirmar que to
 | Cabeceras, IDs, separadores y códigos de formato ambiguos | Cabecera estricta, IDs exactos, formato CSV controlado y contrato de texto plano para CAD |
 | Windows-1252 inferido solo por la página de códigos del dibujo | Rutina con lectura UTF-8 explícita, AutoCAD 2021+ y LISPSYS 1/2; auxiliar CP1252 separado y rechazado por la rutina |
 | Reejecución, fallas de escritura y cancelación | Relectura tras entmod, reconocimiento de YA_ACTUALIZADO, registro único y aviso honesto de cambios parciales; pendiente ensayo real |
-| Escritura de ramas y comentarios desde CI de PR | CI con contents:read, sin persistir credenciales; resultados como artefactos |
+| Escritura de ramas y comentarios desde CI de PR | Validación con contents:read; publicación separada mediante workflow_run y código de main, aceptando únicamente un PNG como datos |
 | Publicación descrita como desactivada pero ejecutable manualmente | Pages requiere ejecución manual en main y variable PUBLICAR_VISOR=true |
 | Popup web interpretaba atributos como HTML | Visor con nodos DOM y textContent, sin interpolar datos en HTML |
 | Coordenadas provisionales presentadas como mapa | Visor del dibujo; GeoJSON con geometría nula hasta verificación |
@@ -33,7 +33,7 @@ El caso de acentos usa los **9 handles** que los CSV recibidos asignan a `Av Jos
 
 ## Lo que sigue pendiente
 
-- Confirmar localidad, titularidad y alcance de difusión del repositorio público.
+- Confirmar correspondencia del plano con Villa Yacanto, titularidad y alcance de difusión del repositorio público.
 - Contrastar CRS y posiciones; disponer de un punto ayuda, pero no prueba toda la georreferenciación.
 - Verificar la correspondencia de handles y textos con el DWG y probar la rutina dentro de AutoCAD sobre una copia.
 - Contar con una decisión institucional sobre cada corrección que se quiera aplicar.
@@ -41,3 +41,19 @@ El caso de acentos usa los **9 handles** que los CSV recibidos asignan a `Av Jos
 - Comprobar la ejecución de GitHub Actions en el repositorio remoto. El paquete no se subió automáticamente.
 
 Las comprobaciones automáticas no autentican una firma, no validan historia local ni comprueban que una persona tenga competencia institucional. Un check verde no sustituye esos actos.
+
+## Actualización: Codespaces y acompañamiento didáctico
+
+El trabajo del estudiante se trasladó íntegramente a GitHub Codespaces. Se agregaron configuración de contenedor, instalación automática de dependencias, tareas del editor y visor que valida al recargar. README, plan, contribución, propuesta y guías ahora describen el uso desde el navegador. La configuración de GitHub Actions mantiene el control de validación y se incorporan tests del servidor de la vista de trabajo.
+
+El README incluye una ilustración de bienvenida y un diagrama Mermaid con caminos de propuesta, consulta, errores y devolución. Un caso de Alsina explica cómo distinguir observación, hipótesis y conformidad. Se retiró el script de primer push porque el repositorio ya existe.
+
+La configuración del contenedor no cambia facturación, permisos ni configuración de Pages en GitHub. El supervisor debe comprobar el primer Codespace real y elegir GitHub Actions como origen de Pages si quiere publicar el visor de `web/`.
+
+## Integración del complemento de vistas previas y ubicación
+
+El ZIP recibido contenía un parche dependiente de la actualización anterior y una copia suelta de un workflow distinto. Se unificaron sobre el main existente. La vista compara filas por ID y conformidades con la base del PR; no atribuye al estudiante todas las calles de un lote tocado. El estado de cada punto conserva su color.
+
+Se retiró la interpolación de nombres de archivos y ramas dentro de comandos de shell. El publicador con escritura vive en un workflow separado que ejecuta código de main; comprueba PR, versión y artefacto, y no extrae ni ejecuta contenido del PR. Un fallo genera un aviso en lugar de conservar una imagen vieja como resultado actual.
+
+Se incorporó el enlace de ubicación proporcionado por el coordinador: Villa Yacanto, Córdoba, Argentina. README, visor y propuesta lo identifican como referencia territorial. No se modificaron los CSV, coordenadas heredadas ni geometrías del GeoJSON.
