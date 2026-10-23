@@ -7,7 +7,7 @@ Vas a revisar nombres de calles, encontrar fuentes, explicar dudas y preparar un
 
 [![Abrir en GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/los-topos-cosmicos/callejero-yacanto?quickstart=1)
 
-**Primera vez:** abrí el botón, elegí el entorno de 2 núcleos si GitHub lo pregunta y esperá a que termine la preparación automática. Se abren la [guía del estudiante](docs/CODESPACES_ESTUDIANTE.md) y el lote 02. Usá la opción de abrir en el navegador. Solo necesitás tu cuenta GitHub, acceso al repositorio e internet; no hay instalaciones, claves ni configuración local.
+**Primera vez:** abrí el botón, elegí el entorno de 2 núcleos si GitHub lo pregunta y esperá a que termine la preparación automática. Se abre [Primeras actividades](docs/ACTIVIDADES_INICIALES.md); empezá por la sesión 1 con el supervisor. Usá la opción de abrir en el navegador. Solo necesitás tu cuenta GitHub, acceso al repositorio e internet; no hay instalaciones, claves ni configuración local.
 
 **Ya empezaste:** volvé a tu mismo espacio desde [tus Codespaces](https://github.com/codespaces). No crees uno nuevo cada día.
 
@@ -23,7 +23,7 @@ El enlace compartido por el coordinador permite conocer la localidad antes de re
 
 | Tu acción | Lo que aprendés | Lo que dejás |
 |---|---|---|
-| Revisar 5–10 calles por vez | Leer datos y distinguir evidencia de suposiciones | Nombres con criterio y fuente |
+| Revisar una calle por vez al empezar | Leer datos y distinguir evidencia de suposiciones | Nombres con criterio y fuente |
 | Registrar una duda | Reconocer qué falta y formular una buena pregunta | Una consulta que la autoridad puede responder |
 | Validar el lote | Interpretar mensajes y corregir errores | Un CSV consistente |
 | Pedir revisión mediante un PR | Explicar tu trabajo y aprovechar comentarios | Un historial de aprendizaje |
@@ -51,12 +51,11 @@ flowchart TD
 
 ## Tu primera sesión: 60 minutos
 
-1. **10 min:** leé la guía y abrí `datos/lotes/lote-01.csv`, que contiene ejemplos.
-2. **15 min:** compará una propuesta con una consulta. Explicá por qué ambas son trabajo útil.
-3. **25 min:** con el supervisor, elegí un cambio pequeño de práctica. Creá una rama antes de editar.
-4. **10 min:** abrí **Terminal → Run Task → Callejero: Validar datos**, leé el resultado y anotá el siguiente paso.
+1. **10 min:** con el supervisor, abrí el entorno y [Primeras actividades](docs/ACTIVIDADES_INICIALES.md).
+2. **30 min:** leé el caso de Alsina y anotá qué sabemos y qué falta en una [ficha de trabajo](docs/FICHA_DE_TRABAJO.md).
+3. **20 min:** explicá tu pregunta, guardá la ficha con ayuda y detené el Codespace.
 
-El lote 01 trae seis ejemplos de conservación de grafía y cuatro preguntas. Es material preparado: no se cuenta como trabajo ya hecho por vos. Una duda sobre a qué Alsina alude la calle debe quedar en consulta; no se resuelve adivinando.
+Hoy no editás el inventario ni abrís un PR. Durante las diez primeras sesiones se introduce una habilidad por vez: interpretar, preguntar, registrar una fila, validar y finalmente pedir revisión con acompañamiento. Los ejemplos preparados no cuentan como producción propia. [Tres casos resueltos](docs/CASOS_RESUELTOS.md) muestran cómo conservar, corregir o consultar.
 
 ## Las herramientas ya vienen listas
 
@@ -85,6 +84,7 @@ Si un control falla, el comentario indica cómo abrir el error y corregirlo en l
 
 | Si buscás… | Abrí… |
 |---|---|
+| Primeras diez sesiones y criterios para avanzar | [Primeras actividades](docs/ACTIVIDADES_INICIALES.md) |
 | Primer acceso, trabajo diario y cierre de sesión | [Guía del estudiante](docs/CODESPACES_ESTUDIANTE.md) |
 | Un ejemplo explicado y un pequeño glosario | [Aprender con un caso](docs/APRENDER_CON_UN_CASO.md) |
 | Las 40 sesiones del proyecto | [Plan de dos meses](docs/PLAN_40_HORAS.md) |

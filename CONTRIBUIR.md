@@ -11,18 +11,22 @@ Guardar como CSV UTF-8, separado por comas, con la cabecera exacta. Usar comilla
 | `id`, `nombre_crudo` | No cambiar; identifican el registro recibido |
 | `nombre` | Grafía propuesta; vacío si se consulta |
 | `tipo` | calle, avenida, pasaje, camino, ruta, bulevar o diagonal |
-| `homenaje` | persona, lugar, fecha u otro; clasificación provisional, no prueba de identidad |
+| `homenaje` | persona, lugar, fecha, otro o sin_confirmar; `otro` indica una categoría conocida distinta y `sin_confirmar` indica que no sabemos |
 | `estado` | vacío, propuesta o en_consulta |
 | `nota` | Motivo del cambio o pregunta concreta, hasta 500 caracteres |
 | `fuente` | Ordenanza, referencia documental, URL o criterio verificable; hasta 500 caracteres |
 
-**`propuesta`** requiere nombre, tipo, homenaje y fuente/criterio. Si cambia el nombre, requiere nota. Conservar la grafía también puede ser una propuesta, indicando que el referente histórico sigue por confirmar.
+**`propuesta`** requiere nombre, tipo, homenaje y fuente/criterio. Si cambia el nombre, requiere nota. Conservar la grafía también puede ser una propuesta si se explica qué se comprobó. La fuente debe sostener el texto y el tipo de vía; si estos no pueden establecerse, consultá. El origen histórico se evalúa por separado: usá `homenaje=sin_confirmar` si no hay evidencia para clasificarlo. Una fuente sobre la grafía no aprueba el cambio municipal. Ver [tres casos resueltos](docs/CASOS_RESUELTOS.md).
 
 **`en_consulta`** requiere una pregunta y deja nombre vacío. No inventar a qué Alsina se refiere una calle ni convertir coincidencias históricas en una fuente municipal.
 
 **`aprobada`** no se escribe en el lote. El supervisor registra en `datos/conformidad.csv` el ID, el nombre original, el nombre exacto aprobado, la fecha y una referencia de decisión. Si el nombre cambia después, la validación falla hasta volver a revisar la conformidad.
 
 La rutina CAD solo admite texto plano. Por eso se rechazan `|`, barra invertida, llaves, `%`, caracteres invisibles y nombres que no se pueden representar en el auxiliar Windows-1252. Esto es una restricción del procedimiento de entrega elegido; no significa que todos los DWG sean incapaces de contener Unicode. Un caso válido que no entra en ese contrato se eleva a revisión manual.
+
+## Borrador antes del CSV
+
+Guardá notas incompletas en una [ficha de trabajo](docs/FICHA_DE_TRABAJO.md). El supervisor acompaña la primera edición. Por ejemplo, una nota con coma se escribe `"¿Cuál es la grafía, y qué documento la establece?"`; las comillas internas se duplican: `"El documento dice ""Río Claro""."`. No cambies las ocho columnas ni los IDs.
 
 ## Una contribución, toda en el navegador
 

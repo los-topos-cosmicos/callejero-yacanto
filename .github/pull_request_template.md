@@ -8,8 +8,8 @@ Explicar el cambio, o por qué se conserva el rótulo. Marcar hipótesis y consu
 
 ## Evidencia
 
-- [ ] Ejecuté `python scripts/validar.py`.
-- [ ] Leí los errores o el artefacto de GitHub Actions.
+- [ ] Ejecuté **Callejero: Validar datos** desde el menú de tareas (o `python scripts/validar.py`).
+- [ ] Revisé el resultado de la validación; si necesité ayuda lo indiqué.
 - [ ] No modifiqué datos crudos ni conformidades.
 - [ ] Las dudas están en `en_consulta` y no tienen un nombre inventado.
 

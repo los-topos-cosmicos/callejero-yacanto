@@ -34,7 +34,7 @@ Un repositorio ordenado, un subconjunto revisado con fuentes, consultas explíci
 
 | Participante | Beneficio concreto | Aporte requerido |
 | --- | --- | --- |
-| Estudiante | Aprende CSV, Git, revisión de datos, pruebas y comunicación. Obtiene un trabajo demostrable con historial. | Una hora por día hábil; registrar decisiones y pedir ayuda cuando falte evidencia. |
+| Estudiante | Aprende revisión de datos, CSV, Git y comunicación de forma gradual. Obtiene un trabajo demostrable con historial. | Una hora por día hábil; registrar decisiones y pedir ayuda cuando falte evidencia. |
 | Municipalidad | Recibe un inventario reutilizable, inconsistencias identificadas y correcciones trazables para evaluar. | Confirmar alcance, permitir uso de los datos y responder un conjunto acotado de consultas. |
 | Docente / autoridad | Evalúa aprendizaje con evidencia y recibe una propuesta que puede aceptar parcialmente. | Separar evaluación pedagógica de conformidad municipal; designar quién decide cada cuestión. |
 | Supervisor técnico | Dispone de una estructura de mentoría y revisión con avances observables. | Preparar el acceso a Codespaces, revisar PR y mantener aprobaciones y procedimientos CAD. |
@@ -46,7 +46,7 @@ Si el docente es también la autoridad municipal, se registran por separado la d
 
 ## Carga de acompañamiento propuesta
 
-Docente/referente: 20–30 minutos semanales, con preguntas agrupadas. Supervisor: preparación inicial y 30–45 minutos semanales de revisión, ajustables según necesidad. Son aportes de adultos, fuera de las 40 horas base del estudiante.
+Docente/referente: 20–30 minutos semanales. El supervisor acompaña las actividades nuevas y el cierre de cada sesión en las primeras dos semanas; luego se acuerda revisión semanal según autonomía. Preparar acceso y fuentes requiere tiempo adicional. Confirmar disponibilidad antes de iniciar.
 
 ### PLAN DE TRABAJO
 
@@ -56,19 +56,19 @@ Se planifican 40 sesiones de una hora como núcleo. Dos meses calendario no equi
 
 | Bloque | Horas | Trabajo y evidencia |
 | --- | --- | --- |
-| Semana 1 | 5 | Codespaces en el navegador, fuentes, lote 01 y primer PR de práctica. |
-| Semanas 2–3 | 10 | Lotes pequeños; documentar fuentes, consultas y tiempos reales. Ajustar la meta al cierre de la semana 3. |
-| Semanas 4–6 | 15 | Revisar nuevos lotes al ritmo observado; responder revisiones y mejorar una herramienta pequeña. |
-| Semana 7 | 5 | Consistencia de nombres, fuentes y estados; resolver consultas priorizadas. |
+| Semana 1 | 5 | Un caso por vez: observar, preguntar, comparar ejemplos y registrar con ayuda. |
+| Semanas 2–3 | 10 | Primer PR acompañado; repetir con lista de pasos y medir autonomía y ritmo. |
+| Semanas 4–6 | 15 | Revisar casos al ritmo observado y responder comentarios. Programación opcional. |
+| Semana 7 | 5 | Revisar el subconjunto trabajado y explicar límites con ayuda del supervisor. |
 | Semana 8 | 5 | Generar informe, ensayar presentación, entregar resultados y próximos pasos. |
 
 ## Cada sesión de 60 minutos
 
-10 min: leer la tarea y la devolución. 40 min: trabajar en un caso acotado. 10 min: validar, guardar el avance y registrar la duda o el siguiente paso. Una sesión termina aunque el caso siga abierto.
+Al principio: 10 min de lectura, 30 de trabajo y 20 de revisión y guardado con ayuda. Al dominar el cierre, ajustar a 10 + 40 + 10. La ficha admite borradores. Revisar apoyos en sesiones 5, 10 y 15. Una sesión termina aunque el caso siga abierto.
 
 ## Volumen adaptable
 
-Los lotes existentes son contenedores de datos, no cuotas diarias. Se trabaja en grupos de 5–10 calles y se divide cualquier lote grande. El lote 01 ya contiene ejemplos: no se cuenta como producción del estudiante. Los casos sin evidencia pasan a consulta sin consumir varios días en una búsqueda incierta.
+Los lotes son contenedores, no cuotas. Se empieza por una fila con evidencia suministrada y luego se acuerdan grupos según autonomía. El lote 01 contiene ejemplos. Una búsqueda adicional tiene un límite acordado; si falta evidencia se registra una consulta.
 
 ## Criterio de éxito
 
@@ -94,7 +94,7 @@ El estudiante registra una propuesta o una consulta en un CSV. Un Pull Request p
 | --- | --- |
 | Plano y localidad | La referencia compartida es Villa Yacanto. El referente confirma que el plano y su alcance corresponden a esa localidad. |
 | Coordenadas | Documentación del CRS y contraste con controles distribuidos. La ficha de Google Maps ubica la localidad, pero no es un punto de control identificado en el plano. |
-| 39 calles fuera del recorte | Revisar su ubicación y el criterio del recorte. No se atribuyen automáticamente a láminas de detalle. |
+| 39 calles fuera del recorte | El supervisor verifica ubicación y recorte; el estudiante explica la limitación. |
 | Rutina CAD | Probar en AutoCAD real, en copia, acentos, omisiones, reejecución y deshacer. Esta prueba aún no se realizó. |
 
 El repositorio es público. No incluye el DWG, imágenes OLE ni una base parcelaria. Incluye datos de rótulos y coordenadas heredadas; corresponde acordar su difusión antes de subirlos. Los originales, firmas y documentación interna se conservan por separado.
@@ -110,10 +110,12 @@ Se solicita acordar el alcance educativo y operativo de la pasantía; la aceptac
 | Trazabilidad y fuentes | 30% | Cada propuesta explica su criterio; las hipótesis están señaladas. |
 | Juicio ante la incertidumbre | 25% | Preguntas concretas y decisión de no inventar información. |
 | Trabajo con revisión | 20% | PR comprensibles, respuesta a comentarios y correcciones. |
-| Aprendizaje técnico | 15% | Uso de validación y una mejora pequeña explicada y probada. |
+| Aprendizaje técnico | 15% | Registrar y validar con apoyos graduales; explicar un problema o mejora. Programar es opcional. |
 | Comunicación y cierre | 10% | Informe, presentación y próximos pasos claros. |
 
 La velocidad, la cantidad total de calles y el porcentaje de pruebas que pasan al primer intento son datos de acompañamiento, no medidas automáticas de mérito.
+
+La evaluación distingue trabajo con ayuda, con lista de pasos y con autonomía. Las actividades y descriptores están en docs/ACTIVIDADES_INICIALES.md y docs/EVALUACION_ESTUDIANTE.md. No se exige programar ni verificar coordenadas para aprobar.
 
 ## Acuerdos antes de iniciar
 

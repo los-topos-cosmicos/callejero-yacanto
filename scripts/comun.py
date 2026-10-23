@@ -12,7 +12,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 LOTE = ['id','nombre_crudo','nombre','tipo','homenaje','estado','nota','fuente']
 CONFORMIDAD = ['id','nombre_crudo','nombre_aprobado','fecha','referencia']
 TIPOS = {'calle','avenida','pasaje','camino','ruta','bulevar','diagonal'}
-HOMENAJES = {'persona','lugar','fecha','otro'}
+HOMENAJES = {'persona','lugar','fecha','otro','sin_confirmar'}
 
 class DatosInvalidos(ValueError):
     pass
@@ -26,9 +26,21 @@ def leer_csv(path, cabecera=None):
             reader = csv.DictReader(f, strict=True)
             if cabecera is not None and reader.fieldnames != cabecera:
                 raise DatosInvalidos(f'{Path(path).name}: cabecera exacta requerida: {",".join(cabecera)}')
-            rows = list(reader)
-        if any(None in r or any(v is None for v in r.values()) for r in rows):
-            raise DatosInvalidos(f'{Path(path).name}: cantidad incorrecta de columnas')
+            rows = []
+            while True:
+                line = reader.line_num + 1
+                try:
+                    r = next(reader)
+                except StopIteration:
+                    break
+                except csv.Error as e:
+                    raise DatosInvalidos(f'{Path(path).name}:{line}: CSV inválido: {e}. '
+                                         'Revisar comillas; las comillas dentro de un campo se duplican.') from e
+                if None in r or any(v is None for v in r.values()):
+                    raise DatosInvalidos(f'{Path(path).name}:{line}: cantidad incorrecta de columnas; '
+                                         f'se esperan {len(reader.fieldnames)}. Si una nota contiene comas, '
+                                         'encerrarla entre comillas: "¿Cuál es la grafía, y cuál es su fuente?"')
+                rows.append(r)
         return rows
     except (OSError, UnicodeError, csv.Error) as e:
         raise DatosInvalidos(f'{Path(path).name}: {e}') from e
@@ -88,12 +100,12 @@ def cargar(raiz=RAIZ):
                 if r['nombre']: err('una consulta deja nombre vacío hasta resolver la duda')
                 if not r['nota']: err('escribir la pregunta concreta en nota')
                 if r['tipo'] and r['tipo'] not in TIPOS: err('tipo desconocido')
-                if r['homenaje'] and r['homenaje'] not in HOMENAJES: err('homenaje desconocido')
+                if r['homenaje'] and r['homenaje'] not in HOMENAJES: err('homenaje desconocido; usar sin_confirmar si falta evidencia')
             else:
                 try: texto_cad(r['nombre'])
                 except DatosInvalidos as e: err(str(e))
                 if r['tipo'] not in TIPOS: err('tipo desconocido')
-                if r['homenaje'] not in HOMENAJES: err('homenaje desconocido')
+                if r['homenaje'] not in HOMENAJES: err('homenaje desconocido; usar sin_confirmar si falta evidencia')
                 if not r['fuente']: err('indicar fuente o criterio verificable; no inventar el homenaje')
                 if r['nombre']!=r['nombre_crudo'] and not r['nota']: err('explicar la corrección en nota')
             if len(r['nota'])>500 or len(r['fuente'])>500: err('nota y fuente admiten hasta 500 caracteres cada una')

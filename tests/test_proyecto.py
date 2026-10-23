@@ -96,6 +96,27 @@ class Proyecto(unittest.TestCase):
         with self.assertRaisesRegex(DatosInvalidos,'fuente'):cargar(self.root)
         self.update('006',fuente='Rótulo recibido, referente por confirmar',nota='Nota con comas, y símbolos < > & sin HTML ejecutable')
         self.assertEqual(cargar(self.root)['rows']['006']['fuente'],'Rótulo recibido, referente por confirmar')
+    def test_unknown_tribute_does_not_require_guessing_or_grant_approval(self):
+        key=self.propose()
+        self.update(key,homenaje='sin_confirmar')
+        data=cargar(self.root)
+        self.assertEqual(data['rows'][key]['homenaje'],'sin_confirmar')
+        self.assertEqual(data['rows'][key]['estado_final'],'propuesta')
+        self.assertEqual(cambios(data,True),[])
+        self.update(key,homenaje='desconocido')
+        with self.assertRaisesRegex(DatosInvalidos,'usar sin_confirmar'):cargar(self.root)
+    def test_column_error_identifies_line_and_explains_quoting(self):
+        path=self.root/'datos/lotes/lote-02.csv'
+        lines=path.read_text().splitlines()
+        lines[1]+=',coma sin comillas'
+        path.write_text('\n'.join(lines)+'\n')
+        with self.assertRaisesRegex(DatosInvalidos,r'lote-02.csv:2:.*comillas'):cargar(self.root)
+    def test_csv_syntax_error_identifies_line(self):
+        path=self.root/'datos/lotes/lote-02.csv'
+        lines=path.read_text().splitlines()
+        lines[1]='011,"campo sin cerrar'
+        path.write_text('\n'.join(lines[:2])+'\n')
+        with self.assertRaisesRegex(DatosInvalidos,r'lote-02.csv:2: CSV inválido'):cargar(self.root)
     def test_base_integrity_detects_edit(self):
         p=self.root/'datos/crudo/etiquetas.csv';p.write_bytes(p.read_bytes()+b'\n')
         with self.assertRaisesRegex(DatosInvalidos,'cambió el archivo base'):cargar(self.root)

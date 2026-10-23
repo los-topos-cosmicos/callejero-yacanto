@@ -37,6 +37,8 @@ Ejecutá **Callejero: Validar datos**. Un resultado correcto significa que la fi
 
 El supervisor puede aceptar que tu trabajo está bien documentado e incorporar la consulta a `main`. Eso no aprueba una corrección de nombre. Una conformidad municipal posterior se registra en otro archivo, con el texto exacto y su referencia.
 
+Compará ahora con [tres casos resueltos](CASOS_RESUELTOS.md): muestran una conservación, una corrección y una consulta con material suministrado. La grafía puede estar respaldada aunque el homenaje siga `sin_confirmar`.
+
 ## Pequeño glosario
 
 | Palabra | Qué significa aquí |
