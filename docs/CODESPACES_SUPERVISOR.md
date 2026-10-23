@@ -33,7 +33,7 @@ La configuración y sus scripts se verificaron fuera de Codespaces; la creación
 
 - [ ] Abrir un Codespace nuevo desde el navegador con la rama actualizada.
 - [ ] Confirmar que termina la preparación automática sin pedir instalaciones al estudiante.
-- [ ] Ver la guía y el lote 02 abiertos.
+- [ ] Ver la guía de primeras actividades abierta.
 - [ ] Ejecutar **Callejero: Validar datos** y **Callejero: Ejecutar pruebas**.
 - [ ] Abrir **Ports → 8000 → Open in Browser**, conservando visibilidad privada.
 - [ ] En una rama de ensayo, guardar una consulta; recargar y comprobar su aparición.
@@ -45,9 +45,17 @@ La configuración y sus scripts se verificaron fuera de Codespaces; la creación
 
 Registrar fecha, cuenta de prueba y resultado mediante una referencia apropiada. Si falla la instalación remota, el supervisor revisa el log y la red/políticas de GitHub; no traslada la configuración a la computadora del estudiante.
 
+## Preparación de las actividades
+
+Completá la configuración institucional y regenerá la propuesta antes de la primera sesión. Revisá [Primeras actividades](ACTIVIDADES_INICIALES.md), prepará las referencias publicables y comprobá que los IDs asignados sigan disponibles. Si ya están trabajados, elegí reemplazos de dificultad equivalente y anotá los IDs en la ficha. No asignes automáticamente las primeras cinco filas de un lote.
+
+Antes del primer guardado, prepará una rama de práctica para las fichas; acompañá los primeros commits y envíos hasta presentar Git al estudiante. Reservá acompañamiento para las primeras dos semanas, especialmente los últimos 20 minutos para guardar y subir. Si no podés estar en una actividad nueva, el estudiante puede continuar su ficha o comparar los casos resueltos; la edición y el primer envío esperan al acompañamiento. Registrá los apoyos necesarios en sesiones 5, 10 y 15 y ajustá el ritmo.
+
+La evidencia para clasificar el homenaje puede faltar aunque el nombre esté documentado: se permite `sin_confirmar`. El supervisor conserva las verificaciones espaciales de las 39 calles y las conformidades; el estudiante explica las limitaciones. Programar es opcional. Ver [evaluación con ejemplos observables](EVALUACION_ESTUDIANTE.md).
+
 ## Acompañamiento didáctico
 
-Durante la primera hora, abrir un archivo, leer una fila, validar y explicar la devolución. Introducir rama, commit, push y PR mediante un cambio pequeño. No pedir que memorice comandos para instalar paquetes.
+Durante la primera hora, abrir la actividad, leer el caso y formular una pregunta en una ficha. La validación se presenta en la sesión 2; registrar una fila y corregir un error se practican después. Introducir rama, commit, push y PR gradualmente, con un primer envío acompañado en sesiones 6–10. No pedir que memorice comandos para instalar paquetes.
 
 Una consulta bien planteada cuenta como evidencia de aprendizaje. Los comentarios del PR deben explicar qué dato o razonamiento falta. Evitar resolver todas las dudas por él o medir progreso solo por el total completado.
 

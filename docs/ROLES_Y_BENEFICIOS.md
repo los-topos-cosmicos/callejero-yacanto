@@ -10,7 +10,7 @@ La propuesta es una pasantía corta de trabajo con datos públicos de interés l
 | Supervisor técnico | Mentoría ordenada y herramientas reutilizables | Acceso a Codespaces, revisión de PR y custodia de conformidades | Que la automatización sustituya su criterio |
 | Comunidad | Potencial mejora de información si es validada y adoptada | Sin tareas directas | Impacto inmediato en domicilios, servicios o catastros |
 
-Se propone al docente/referente una revisión de 20–30 minutos semanales y al supervisor 30–45 minutos de revisión técnica, además de la preparación inicial. El tiempo real se ajusta según necesidades y disponibilidad.
+Se propone al docente/referente una revisión de 20–30 minutos semanales. Durante las primeras dos semanas el supervisor acompaña las actividades nuevas y los últimos 20 minutos de cada sesión para guardar y revisar; después se acuerdan 30–45 minutos semanales de revisión técnica según la autonomía observada. La preparación de fuentes y acceso requiere tiempo adicional del supervisor. Revisar esta disponibilidad antes de iniciar.
 
 Una consulta bien formulada es trabajo útil. No se considera fracaso llegar al cierre con preguntas pendientes ni recibir una aceptación parcial. El resultado pedagógico se evalúa por fuentes, juicio, respuesta a revisión, aprendizaje y comunicación; no por adivinar nombres ni por completar una cifra.
 

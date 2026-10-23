@@ -2,13 +2,15 @@
 
 Vas a usar **GitHub Codespaces** durante toda la pasantía. Tu computadora solo abre el navegador: Python, Git, las dependencias y el visor se preparan automáticamente en GitHub. No instales programas ni generes claves para este proyecto.
 
+Empezá por [Primeras actividades](ACTIVIDADES_INICIALES.md). Esta página es una referencia para los pasos técnicos; no tenés que completarla en una sola sesión. El supervisor acompaña los primeros guardados y envíos.
+
 ## 1. Entrar por primera vez
 
 1. Iniciá sesión con tu propia cuenta GitHub y aceptá la invitación al repositorio si la recibiste.
 2. Abrí [crear el Codespace del callejero](https://codespaces.new/los-topos-cosmicos/callejero-yacanto?quickstart=1). También llegás desde el repositorio con **Code → Codespaces → Create codespace on main**.
 3. Si aparece la elección de máquina, usá **2 cores**. Si pide facturación, pago o permisos que no tenés, avisá al supervisor: él prepara ese acceso antes de tu primera sesión.
 4. Esperá la preparación automática. La primera apertura puede tardar varios minutos. Elegí **Open in Browser** si GitHub ofrece varios editores.
-5. Vas a ver esta guía y `datos/lotes/lote-02.csv`. El lote 01 se abre desde la columna izquierda para estudiar los ejemplos.
+5. Vas a ver la guía de primeras actividades. El supervisor te ayuda a abrir los ejemplos; el lote de trabajo se abre cuando llegue la actividad de registrar una fila.
 
 Los próximos días, abrí **el mismo Codespace** desde https://github.com/codespaces. Tus archivos guardados permanecen en ese espacio mientras exista; el commit y el push son los que conservan el trabajo en el repositorio.
 
@@ -34,11 +36,13 @@ Al empezar una nueva tarea, el supervisor te ayuda a volver a `main` y traer la 
 
 ## 4. Revisar pocas calles y guardar
 
-Abrí el lote indicado. Trabajá en 5–10 filas como máximo por grupo; no es una cuota diaria. Conservá `id` y `nombre_crudo`. Para cada caso:
+Abrí el lote indicado. Empezá por una sola fila con evidencia suministrada. Ampliá el grupo solo después de revisar tu ritmo con el supervisor; no hay una cuota diaria. Conservá `id` y `nombre_crudo`. Para cada caso:
 
-- Si tenés un criterio verificable, completá nombre, tipo, homenaje, `propuesta`, nota y fuente.
+- Si la evidencia sostiene la grafía y el tipo de vía, completá nombre, tipo, `propuesta`, nota y fuente. Si no conocés el homenaje, usá `sin_confirmar`; no hace falta adivinarlo.
 - Si falta información, dejá `nombre` vacío, escribí `en_consulta` y una pregunta concreta en nota.
 - Si aún no lo trabajaste, dejá vacíos los campos de revisión.
+
+Usá una [ficha de trabajo](FICHA_DE_TRABAJO.md) para notas incompletas y búsquedas. El CSV recibe solo resultados listos para validar. El supervisor muestra cómo leer las ocho columnas y escribir comas dentro de comillas antes de la primera edición.
 
 El editor guarda automáticamente después de un segundo. Antes de validar podés usar **File → Save / Archivo → Guardar**. No uses una planilla local: así evitás perder los ceros iniciales de los IDs.
 
@@ -86,7 +90,7 @@ Los comentarios del supervisor son parte del trabajo. Corregí los mismos archiv
 Antes de cerrar la hora:
 
 - Guardá, hacé commit y push del avance, aunque quede un PR en borrador.
-- Escribí qué hiciste, qué dudás y cuál es el siguiente paso en la bitácora.
+- Completá la ficha de la sesión: qué hiciste, qué dudás y cuál es el siguiente paso. Una vez por semana resumí el aprendizaje en la bitácora semanal.
 - Abrí https://github.com/codespaces y elegí **… → Stop codespace / Detener** en tu espacio. Cerrar la pestaña no lo detiene inmediatamente.
 
 No borres el Codespace como forma de cerrar una sesión. Si tenés que borrarlo al terminar la pasantía, comprobá primero con el supervisor que todo el trabajo esté subido.

@@ -6,19 +6,19 @@ Crear cada issue copiando su título y cuerpo. Los números siguientes son ordin
 
 Semana 1 · sesiones 1–5
 
-Abrir el Codespace en el navegador, leer la guía y reconocer sus paneles. Usar Terminal → Run Task → Callejero: Validar datos. Leer la propuesta y sus límites. Explicar propuesta, consulta y conformidad. Abrir un PR pequeño de documentación.
+Seguir sesiones 1–5 de [Primeras actividades](docs/ACTIVIDADES_INICIALES.md). Abrir el entorno, formular una pregunta en una ficha, comparar tres casos resueltos y registrar una consulta con ayuda. El supervisor prepara fuentes y acompaña el guardado; el PR se introduce después.
 
 - [ ] Codespace preparado automáticamente, sin instalaciones locales
 - [ ] Lote 01 explicado con un caso dudoso
-- [ ] PR revisado y corregido
+- [ ] Una fila válida y un error conocido corregido con ayuda
 
 ## 02 · Revisar el lote 02 como prueba de ritmo
 
 Semana 2 · sesiones 6–10
 
-Trabajar en dos grupos de cinco calles. Registrar fuente/criterio y preguntas. No resolver por intuición el referente de una calle.
+Seguir sesiones 6–10 de Primeras actividades. Revisar un segundo ID con evidencia suministrada, comprobar las dos filas y abrir el primer PR acompañado. Si el primer caso requiere más práctica, repetir antes de ampliar el grupo.
 
-- [ ] Diez filas con propuesta o consulta
+- [ ] Uno o dos casos revisados según autonomía observada
 - [ ] Validación correcta
 - [ ] PR con dudas agrupadas
 
@@ -26,7 +26,7 @@ Trabajar en dos grupos de cinco calles. Registrar fuente/criterio y preguntas. N
 
 Semana 3 · sesiones 11–15
 
-Elegir 5–10 filas del lote 03. Medir tiempo incluyendo investigación, errores y devoluciones. Acordar alcance de semanas 4–6.
+Elegir IDs de dificultad equivalente con el supervisor; empezar por un caso. Medir tiempo incluyendo investigación, errores y devoluciones. Acordar alcance de semanas 4–6.
 
 - [ ] Grupo revisado
 - [ ] Tiempo observado y meta acordada
@@ -36,20 +36,20 @@ Elegir 5–10 filas del lote 03. Medir tiempo incluyendo investigación, errores
 
 Semana 4 · sesiones 16–20
 
-Elegir el próximo grupo según el ritmo real; dividir lotes de 20–30 filas. Revisar abreviaturas, espacios y tildes con evidencia.
+Elegir el próximo grupo según el ritmo real; asignar IDs explícitos con fuentes disponibles; el tamaño del lote no determina la tarea. Revisar abreviaturas, espacios y tildes con evidencia.
 
 - [ ] Grupo acotado documentado
 - [ ] PR abierto
 - [ ] Comentarios atendidos
 
-## 05 · Mejorar una herramienta pequeña
+## 05 · Explicar una mejora pequeña; programación opcional
 
 Semana 5 · sesiones 21–25
 
-Elegir un error reproducible, un mensaje confuso o una mejora documental. Explicarlo antes de modificar. No cambiar la lógica CAD sin revisión técnica.
+Elegir una instrucción confusa, un error reproducible o una mejora documental. Explicar y comprobar el antes y después con ayuda. Programar es opcional según conocimientos previos; también vale documentar el problema y su solución sin cambiar código. No cambiar la lógica CAD sin revisión técnica.
 
 - [ ] Problema y ejemplo documentados
-- [ ] Cambio acotado
+- [ ] Explicación o cambio acotado según el objetivo acordado
 - [ ] Comprobación del resultado
 - [ ] Explicación del estudiante
 
@@ -67,7 +67,7 @@ Continuar el inventario con la meta ajustada. No incorporar más alcance si comp
 
 Semana 7 · sesiones 31–33
 
-Revisar consistencia entre lotes, fuentes y nombres similares. Incluir las 39 calles fuera del recorte en la revisión, sin atribuirles una ubicación inventada.
+Revisar consistencia entre lotes, fuentes y nombres similares. El supervisor prepara un resumen sobre las 39 calles fuera del recorte; el estudiante explica esa limitación. La verificación espacial queda a cargo del supervisor.
 
 - [ ] Inconsistencias resueltas o consultadas
 - [ ] Fuentes comprobadas por una persona
@@ -88,7 +88,7 @@ Confirmar localidad y difusión de datos. Pedir documentación de CRS y controle
 
 Semanas 7–8 · sesiones 34–38
 
-Generar en carpeta nueva, revisar PDF, CSV, consultas y manifiesto. Asegurar que el archivo aprobado no incluya propuestas pendientes.
+Generar con acompañamiento en carpeta nueva. El estudiante revisa resumen, casos trabajados y preguntas. El supervisor verifica PDF, CSV, manifiesto y exclusión de propuestas pendientes del archivo aprobado.
 
 - [ ] Validación y pruebas correctas
 - [ ] Informe coherente con los CSV
@@ -105,3 +105,7 @@ Explicar objetivo, método, un caso resuelto y uno dudoso. Separar evaluación p
 - [ ] Recepción registrada por referencia
 - [ ] Reflexión final
 - [ ] Próximos pasos y responsables
+
+## Cómo asignar cada sesión
+
+Estas issues agrupan semanas; no reemplazan la ficha diaria. Antes de asignar, el supervisor anota ID, fuente suministrada, objetivo, pasos y resultado suficiente en una [ficha](docs/FICHA_DE_TRABAJO.md). Acordar un máximo inicial de 10 minutos para una búsqueda adicional y registrar la duda si no alcanza. No usar un grupo de cinco calles como condición para completar una sesión.

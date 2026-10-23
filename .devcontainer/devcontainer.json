@@ -29,7 +29,7 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": ["docs/CODESPACES_ESTUDIANTE.md", "datos/lotes/lote-02.csv"]
+      "openFiles": ["docs/ACTIVIDADES_INICIALES.md"]
     },
     "vscode": {
       "extensions": ["ms-python.python", "GitHub.vscode-pull-request-github"],
