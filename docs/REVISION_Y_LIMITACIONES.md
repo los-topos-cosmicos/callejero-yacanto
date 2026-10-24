@@ -17,7 +17,7 @@ El paquete anterior mejoró varios controles, pero no justificaba afirmar que to
 | Windows-1252 inferido solo por la página de códigos del dibujo | Rutina con lectura UTF-8 explícita, AutoCAD 2021+ y LISPSYS 1/2; auxiliar CP1252 separado y rechazado por la rutina |
 | Reejecución, fallas de escritura y cancelación | Relectura tras entmod, reconocimiento de YA_ACTUALIZADO, registro único y aviso honesto de cambios parciales; pendiente ensayo real |
 | Escritura de ramas y comentarios desde CI de PR | Validación con contents:read; publicación separada mediante workflow_run y código de main, aceptando únicamente un PNG como datos |
-| Publicación descrita como desactivada pero ejecutable manualmente | Pages requiere ejecución manual en main y variable PUBLICAR_VISOR=true |
+| Publicación descrita como desactivada pero ejecutable manualmente | Pages publica automáticamente los cambios de main tras validar y pasar las pruebas; requiere PUBLICAR_VISOR=true y conserva la opción manual |
 | Popup web interpretaba atributos como HTML | Visor con nodos DOM y textContent, sin interpolar datos en HTML |
 | Coordenadas provisionales presentadas como mapa | Visor del dibujo; GeoJSON con geometría nula hasta verificación |
 | Las 39 calles fuera del recorte quedaban excluidas o se atribuían a detalles sin evidencia | Se muestran todas y se mantiene la causa como pendiente |
