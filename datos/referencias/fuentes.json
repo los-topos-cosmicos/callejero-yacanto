@@ -1,0 +1,88 @@
+{
+  "fuentes": [
+    {
+      "id": "GEOREF-VY",
+      "titulo": "Georef / calles / localidad censal 14007360",
+      "url": "https://apis.datos.gob.ar/georef/api/calles?localidad_censal=14007360&max=5000&campos=estandar",
+      "archivo": "georef_villa_yacanto.json",
+      "alcance": "Referencia de nombre y categoría; no prueba identidad del DWG ni vigencia de una denominación municipal.",
+      "consulta": "2026-10-24",
+      "sha256": "93ddb98e2f70144d96007352a369ce2eb67f8ed985cce7f8da77ca73f6f9fdf6"
+    },
+    {
+      "id": "INDEC2022-VY",
+      "titulo": "INDEC (2022). Marco Geoestadístico Nacional / Vías de circulación",
+      "url": "https://geonode.indec.gob.ar/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geonode%3Avias_de_circulacion&outputFormat=application%2Fjson&count=10000&CQL_FILTER=localidad%20ILIKE%20%27VILLA%20YACANTO%27&propertyName=id%2Cfna%2Csubtipo%2Ccod_indec%2Clocalidad%2Cclc%2Ccde%2Ccpr%2Cgna",
+      "archivo": "indec2022_villa_yacanto.json",
+      "alcance": "Consulta de atributos sin geometrías; el campo geometry nulo es consecuencia de esa selección. No georreferencia el inventario recibido.",
+      "consulta": "2026-10-24",
+      "sha256": "03b5b6680e232f044ee4e26679335fd8ea8ba53e29f0942d9f080a9bbf918152"
+    },
+    {
+      "id": "MUN-TUR-MAPA",
+      "titulo": "Municipalidad de Villa Yacanto / Mapa turístico",
+      "url": "https://www.villayacanto.tur.ar/_files/ugd/e11905_0273f519a1344012aa82c122cd7b0dc1.pdf",
+      "alcance": "Uso turístico publicado; no ordenanza de nombres ni conformidad del plano.",
+      "consulta": "2026-10-24",
+      "sha256_documento_consultado": "9eac04c187b0703dfc11e3bdbed912c4aff4d0d3097d86aacd62decbdfb82f62"
+    },
+    {
+      "id": "MUN-1099-2025",
+      "titulo": "Ordenanza municipal 1099/2025 / artículos 2 y 3",
+      "url": "https://www.villayacanto.gob.ar/_files/ugd/e11905_8fea86f0179c4cb790e135cc21b8e937.pdf",
+      "alcance": "Referencias expresas a calles en Quebradas Azules, páginas 2–3; no se reproducen datos tributarios o personales.",
+      "consulta": "2026-10-24",
+      "sha256_documento_consultado": "7a88d0f1344435557871b2265a9aa64ed6f276c2a6cc92cc8c2eed93bb9144af"
+    },
+    {
+      "id": "MUN-TUR-COMER",
+      "titulo": "Turismo municipal / Dónde comer / LO DE JUANO",
+      "url": "https://www.villayacanto.tur.ar/dondecomer",
+      "alcance": "Dirección escrita de establecimiento; sustenta Av. José Marrero, no el homenaje.",
+      "consulta": "2026-10-24"
+    },
+    {
+      "id": "CBA-SENDEROS",
+      "titulo": "Agencia Córdoba Turismo / Senderos / Villa Yacanto / página 49",
+      "url": "https://cordobaturismo.gov.ar/wp-content/uploads/2024/09/Senderos-Turistico-2024.pdf",
+      "alcance": "Sendero/atractivo; no demuestra que una avenida tenga idéntico nombre.",
+      "consulta": "2026-10-24",
+      "sha256_documento_consultado": "72752dd6bb0e392cc9e411c3ff46af83174c7bf19057b42912981dd33b9d1ba5"
+    },
+    {
+      "id": "RAE-ABREVIATURAS",
+      "titulo": "RAE-ASALE / DPD / apéndice de abreviaturas",
+      "url": "https://www.rae.es/dpd/ayuda/abreviaturas",
+      "alcance": "Puntuación de abreviaturas; no establece denominaciones municipales.",
+      "consulta": "2026-10-24"
+    },
+    {
+      "id": "RAE-ACENTUACION",
+      "titulo": "RAE-ASALE / DPD / tilde",
+      "url": "https://www.rae.es/dpd/tilde",
+      "alcance": "Criterio ortográfico; no identifica personas ni el nombre municipal de una calle.",
+      "consulta": "2026-10-24"
+    },
+    {
+      "id": "PISTA-804-2018",
+      "titulo": "Índice de publicación / Ordenanza 804/2018 / Patria Grande",
+      "url": "https://www.dateas.com/es/docs/boletin-oficial-pcia-de-cordoba-5ta-seccion/2018/10/05",
+      "alcance": "Texto indexado de un tercero; original no descargado. Pista para pedir documento, no respaldo suficiente para proponer renombres.",
+      "consulta": "2026-10-24"
+    },
+    {
+      "id": "PISTA-805-813-2018",
+      "titulo": "Índice de publicación / Ordenanzas 804–813/2018",
+      "url": "https://www.dateas.com/es/docs/boletin-oficial-pcia-de-cordoba-5ta-seccion/2018/10/18",
+      "alcance": "Sumario indexado; originales y planos pendientes de cotejo.",
+      "consulta": "2026-10-24"
+    },
+    {
+      "id": "PISTA-920-921-2020",
+      "titulo": "Índice de publicación / Ordenanzas 920 y 921/2020",
+      "url": "https://www.dateas.com/fr/docs/boletin-oficial-pcia-de-cordoba-5ta-seccion/2020/12/24",
+      "alcance": "Texto indexado señala Anexo A del nomenclador. El PDF provincial devolvió 403; no se declara el anexo revisado ni se certifica vigencia.",
+      "consulta": "2026-10-24"
+    }
+  ]
+}

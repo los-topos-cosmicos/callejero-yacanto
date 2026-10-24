@@ -148,4 +148,5 @@ def geojson(data):
 
 def huellas(raiz=RAIZ):
     paths=sorted((Path(raiz)/'datos').rglob('*.csv'))+[Path(raiz)/'config/proyecto.json']
+    paths+=sorted((Path(raiz)/'datos/referencias').glob('*.json'))
     return {str(p.relative_to(raiz)):sha256(p) for p in paths}

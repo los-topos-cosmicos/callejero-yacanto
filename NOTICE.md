@@ -7,3 +7,5 @@ El repositorio de destino es público. Este paquete contiene rótulos, coordenad
 Todo cambio es una propuesta hasta la conformidad documentada de la autoridad competente. La ausencia de respuesta no equivale a aprobación. La clasificación de homenaje no acredita por sí sola a qué persona, lugar o hecho alude un nombre.
 
 Las salidas SIG son un inventario de puntos de referencia, no un inventario de ejes de calles. Mientras la georreferenciación esté pendiente, el GeoJSON exportado contiene geometría nula. Ver `PROCEDENCIA.md` y `docs/REVISION_Y_LIMITACIONES.md`.
+
+Las referencias nacionales de `datos/referencias/` proceden de Georef y del Marco Geoestadístico Nacional 2022 del INDEC. Conservan atribución, consulta y alcance en su LEEME y registro de fuentes. Se usan para contraste de nombres y categorías, sin adoptar sus geometrías ni extenderles la licencia MIT. Las transcripciones indexadas de ordenanzas que no se pudieron cotejar se identifican únicamente como pistas bibliográficas.

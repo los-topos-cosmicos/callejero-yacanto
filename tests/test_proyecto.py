@@ -18,6 +18,12 @@ class Proyecto(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory(); self.root=Path(self.tmp.name)/'repo'
         for name in ('datos','config','entrega','docs'):
             shutil.copytree(ROOT/name,self.root/name)
+        # Las reglas se prueban con estados sintéticos, no con el avance real.
+        escribir_csv(self.root/'datos/conformidad.csv',[],CONFORMIDAD)
+        self.update('006',nombre='Almafuerte',tipo='calle',homenaje='sin_confirmar',
+                    estado='propuesta',nota='Caso sintético; no denominación certificada.',fuente='Fixture de test')
+        self.update('008',nombre='',tipo='',homenaje='',estado='en_consulta',
+                    nota='¿Qué documento identifica el referente?',fuente='Fixture de test')
     def tearDown(self): self.tmp.cleanup()
     def update(self,key,**fields):
         for path in (self.root/'datos/lotes').glob('*.csv'):
