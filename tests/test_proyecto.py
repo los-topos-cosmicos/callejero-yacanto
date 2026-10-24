@@ -50,6 +50,9 @@ class Proyecto(unittest.TestCase):
         self.assertEqual(s['aprobada'],0)
         self.assertEqual(cambios(data,True),[])
     def test_unapproved_changes_never_enter_approved_payload(self):
+        # Preparar el caso en la copia temporal: el lote real puede estar revisado.
+        key=next(k for k,r in cargar(self.root)['rows'].items() if r['nombre_crudo']=='Av Jose Marrero')
+        self.update(key,**dict.fromkeys(LOTE[2:],''))
         # Se mide el incremento, no el total: los lotes avanzan con el trabajo.
         antes=len(cambios(cargar(self.root),False))
         self.propose();data=cargar(self.root)
