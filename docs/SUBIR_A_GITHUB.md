@@ -27,10 +27,12 @@ La captura del 18/09/2026 muestra **Deploy from a branch → main → /docs**. E
 2. En **Build and deployment → Source**, elegir **GitHub Actions**. El repositorio ya trae `publicar.yml`; no crear un workflow adicional desde las sugerencias.
 3. Abrir **Settings → Secrets and variables → Actions → Variables**.
 4. Crear la variable de repositorio **PUBLICAR_VISOR** con valor **true**, cuando se haya acordado la difusión.
-5. Ir a **Actions → Publicar visor → Run workflow**, seleccionar `main` y ejecutar.
+5. Incorporar un PR a `main`: **Publicar visor** se ejecuta automáticamente. Para volver a publicar sin cambios, ir a **Actions → Publicar visor → Run workflow**, seleccionar `main` y ejecutar.
 6. Esperar el resultado y abrir el enlace de despliegue. El destino previsto es https://los-topos-cosmicos.github.io/callejero-yacanto/.
 
-El workflow valida y reconstruye `web/`, luego publica solo esa carpeta. Codespaces sirve una vista personal de trabajo en el puerto 8000; Pages publica la versión incorporada a `main` cuando se ejecuta el workflow. La edición del estudiante no necesita Pages para funcionar.
+El workflow valida los datos, audita las referencias y ejecuta todas las pruebas antes de reconstruir `web/` y publicar solo esa carpeta. Si alguna comprobación falla, el sitio conserva la versión publicada anteriormente. Antes de desplegar comprueba que el commit sigue siendo el actual de `main`; una ejecución antigua no publica sobre una versión posterior. La variable **PUBLICAR_VISOR** debe seguir en **true**; cambiarla desactiva las publicaciones siguientes.
+
+Codespaces sirve una vista personal de trabajo en el puerto 8000; Pages publica la versión incorporada a `main` después de superar las comprobaciones. La edición del estudiante no necesita Pages para funcionar. Al recargar, el visor solicita `datos.json` sin reutilizar la caché del navegador. GitHub Pages puede tardar unos minutos en propagar un despliegue.
 
 La configuración remota de Pages y la variable no se cambian por editar un archivo local del repositorio. [Fuente oficial sobre el origen de publicación](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
