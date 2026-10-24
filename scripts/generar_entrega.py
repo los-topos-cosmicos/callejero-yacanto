@@ -39,7 +39,8 @@ def informe(data,out):
              ['Con conformidad registrada',s['aprobada']],['Sin revisar',s['sin_revisar']],
              ['Calles con cambio de grafía propuesto',len(changed)],['Rótulos en archivo CAD aprobado',len(approved)]],[355,148]),
            h('Cómo leer los resultados'),
-           p('El lote 01 es un ejemplo preparado: 6 propuestas de conservar el rótulo y 4 consultas. No representa trabajo ya realizado por el estudiante. Una conformidad valida el nombre exacto registrado, no las hipótesis biográficas ni las coordenadas.'),
+           p('El lote 01 contiene ejemplos preparados y no representa trabajo ya realizado por el estudiante. Sus estados se cuentan desde los CSV actuales. Una conformidad valida el nombre exacto registrado, no las hipótesis biográficas ni las coordenadas.'),
+           p('PENDIENTES.md y pendientes_de_revision.csv muestran qué queda por revisar, consultar o decidir. Se regeneran con los datos del paquete; incorporar un PR no cierra automáticamente esos pendientes.'),
            p('actualizaciones_aprobadas_utf8.txt contiene solo cambios de nombre con conformidad. propuestas_simulacion_utf8.txt permite revisar todas las propuestas y la rutina bloquea su aplicación.'),
            p('El manifiesto incluye las huellas SHA-256 de insumos y salidas. La documentación institucional respaldatoria se conserva fuera del repositorio público.'),
            PageBreak(),kicker('Avance y alcance espacial'),h('Todas las calles cuentan'),
@@ -55,7 +56,7 @@ def informe(data,out):
     story.append(table(['ID / rótulo','Pregunta'],[[r['id']+' / '+r['nombre_crudo'],r['nota']] for r in queries] or [['—','No hay consultas.']],[145,358]))
     story.extend([h('Propuestas registradas'),table(['ID / antes','Después / estado'],
         [[r['id']+' / '+r['nombre_crudo'],r['nombre']+' / '+r['estado_final']] for r in touched if r['estado']=='propuesta'] or [['—','No hay propuestas.']],[230,273]),
-        p('El archivo inventario_completo.csv incluye las 251 filas, notas y fuentes completas. consultas_pendientes.csv contiene las preguntas sin truncar. La firma del informe por sí sola no carga conformidades: el supervisor registra los nombres aceptados en datos/conformidad.csv y regenera el paquete.'),
+        p(f'El archivo inventario_completo.csv incluye las {s["total"]} filas, notas y fuentes completas. consultas_pendientes.csv contiene las preguntas sin truncar. La firma del informe por sí sola no carga conformidades: el supervisor registra los nombres aceptados en datos/conformidad.csv y regenera el paquete.'),
         h('Recepción y decisión'),p('Fecha: __________________  Referencia interna: __________________\nAutoridad / cargo: __________________________________________\nDecisión: recibido / requiere ajustes / conformidad de nombres adjunta\nFirma: ___________________________________________________')])
     build(out/'informe_de_cambios.pdf',story,'Informe de revisión')
 
@@ -76,6 +77,8 @@ def generar(raiz,dest,con_pdf=True):
         escribir_csv(out/'propuestas_por_rotulo.csv',proposals,fields)
         escribir_csv(out/'inventario_completo.csv',inventario(data),LOTE+['estado_final','lote','x_dibujo','y_dibujo','dentro_recorte'])
         escribir_csv(out/'consultas_pendientes.csv',[r for r in data['rows'].values() if r['estado']=='en_consulta'],LOTE)
+        from pendientes import escribir as escribir_pendientes
+        escribir_pendientes(data,out,raiz)
         (out/'callejero.geojson').write_text(json.dumps(geojson(data),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         shutil.copy2(raiz/'entrega/actualizar_calles.lsp',out)
         shutil.copy2(raiz/'entrega/INSTRUCCIONES.md',out)

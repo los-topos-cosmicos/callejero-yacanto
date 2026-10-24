@@ -24,6 +24,8 @@ jobs:
         run: python scripts/validar.py
       - name: Auditar referencias sin modificar el inventario
         run: python scripts/auditar_referencias.py
+      - name: Calcular trabajo pendiente de esta versión
+        run: python scripts/pendientes.py --salida build/pendientes
       - name: Probar las reglas de seguridad y los generadores
         run: python -m unittest discover -s tests -v
       - name: Generar visor, avance y entrega

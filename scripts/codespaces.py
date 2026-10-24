@@ -12,7 +12,7 @@ from urllib.error import URLError
 from urllib.request import urlopen
 from comun import RAIZ, cargar
 
-ACTIONS=('validar','vista','pruebas','entrega','propuesta','iniciar')
+ACTIONS=('validar','vista','pruebas','entrega','propuesta','iniciar','pendientes')
 
 def disponible():
     try:
@@ -41,6 +41,7 @@ def ejecutar(action):
     if action=='validar':return subprocess.call([sys.executable,'scripts/validar.py'],cwd=RAIZ)
     if action=='pruebas':return subprocess.call([sys.executable,'-m','unittest','discover','-s','tests','-v'],cwd=RAIZ)
     if action=='propuesta':return subprocess.call([sys.executable,'scripts/generar_propuesta.py'],cwd=RAIZ)
+    if action=='pendientes':return subprocess.call([sys.executable,'scripts/pendientes.py'],cwd=RAIZ)
     if action=='vista':
         from servir import actualizar
         from previsualizar import dibujar
