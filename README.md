@@ -63,6 +63,7 @@ Dentro de Codespaces, abrí **Terminal → Run Task**. También podés buscar **
 
 | Tarea del menú | Para qué usarla |
 |---|---|
+| `Callejero: Ver pendientes` | Generar una lista actual de preguntas, propuestas sin conformidad y verificaciones pendientes |
 | `Callejero: Validar datos` | Comprobar tus CSV y leer errores |
 | `Callejero: Actualizar vista y gráfico` | Crear la imagen de avance en `build/avance.png` |
 | `Callejero: Ejecutar pruebas` | Comprobar cambios en las herramientas |
@@ -79,6 +80,8 @@ Para guardar cambios, crear una rama y abrir un PR se usa **Source Control / Con
 Al terminar los controles, un comentario del bot muestra el avance para esa versión. **El círculo naranja señala una fila modificada**; su color interior indica si es propuesta, consulta, conformidad o todavía está sin revisar. Cambiar una fuente también es trabajo visible. Los diez ejemplos del lote 01 forman parte del inventario, pero no cuentan como producción del estudiante.
 
 Si un control falla, el comentario indica cómo abrir el error y corregirlo en la misma rama. El gráfico y los archivos también están en **Actions → ejecución → Artifacts**. [Explicación de las vistas previas](docs/VISTAS_PREVIAS.md).
+
+Después de incorporar un PR, ejecutá **Callejero: Ver pendientes** sobre `main` actualizado. Una consulta sigue abierta hasta obtener la evidencia y una propuesta hasta registrar su conformidad. [Cómo continuar los casos pendientes](docs/PENDIENTES.md).
 
 ## Dónde seguir
 
