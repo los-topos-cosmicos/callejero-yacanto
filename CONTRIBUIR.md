@@ -32,7 +32,7 @@ Guardá notas incompletas en una [ficha de trabajo](docs/FICHA_DE_TRABAJO.md). E
 
 1. Abrir el Codespace y crear una rama con el nombre de la tarea.
 2. Editar pocas filas y guardar.
-3. Usar **Terminal → Run Task → Callejero: Validar datos**.
+3. Usar **Terminal → Run Task → Callejero: Validar datos**. Si pasa, actualiza automáticamente `web/datos.json`, `web/calles.csv` y `web/calles.geojson`; incluirlos junto al lote en el mismo commit, sin editarlos a mano.
 4. Revisar el diff en **Source Control**, seleccionar los archivos, escribir el mensaje y hacer **Commit**.
 5. Usar **Publish Branch / Push** y abrir un PR en GitHub.
 
