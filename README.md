@@ -64,7 +64,7 @@ Dentro de Codespaces, abrí **Terminal → Run Task**. También podés buscar **
 | Tarea del menú | Para qué usarla |
 |---|---|
 | `Callejero: Ver pendientes` | Generar una lista actual de preguntas, propuestas sin conformidad y verificaciones pendientes |
-| `Callejero: Validar datos` | Comprobar tus CSV y leer errores |
+| `Callejero: Validar datos` | Comprobar tus CSV y, si son válidos, actualizar las tres exportaciones de `web/` |
 | `Callejero: Actualizar vista y gráfico` | Crear la imagen de avance en `build/avance.png` |
 | `Callejero: Ejecutar pruebas` | Comprobar cambios en las herramientas |
 | `Callejero: Generar entrega` | Crear PDF, CSV y archivos de propuesta en una carpeta nueva |

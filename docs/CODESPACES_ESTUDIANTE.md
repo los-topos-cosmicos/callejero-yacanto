@@ -57,6 +57,8 @@ También sirve abrir la paleta con **Ctrl+Shift+P** (Windows/Linux) o **Cmd+Shif
 - `"valido": true`: las reglas de formato y coherencia pasan. Todavía hace falta revisión humana de las fuentes.
 - `"valido": false`: leé la fila indicada, corregí y repetí. Un error es una indicación de qué revisar, no una calificación.
 
+Si los datos son válidos, esta tarea también actualiza tres archivos del visor: `web/datos.json`, `web/calles.csv` y `web/calles.geojson`. No los edites a mano. Si hay errores, conserva los archivos exportados anteriores para que puedas corregir el lote primero.
+
 Ejemplo: si el mensaje dice que falta la fuente, explicá de dónde sale tu propuesta. No inventes una referencia para obtener un check verde; si no hay evidencia suficiente, cambiá el caso a consulta.
 
 ## 6. Abrir el visor
@@ -73,7 +75,7 @@ Para crear la imagen de avance, ejecutá **Callejero: Actualizar vista y gráfic
 
 1. Abrí **Source Control / Control de código fuente** en la barra izquierda.
 2. Hacé clic en cada archivo cambiado y leé la comparación: rojo es lo que sale y verde lo que entra.
-3. Pulsá **+** junto a los archivos que pertenecen a tu tarea. No agregues archivos ajenos ni conformidades.
+3. Pulsá **+** junto al lote y los tres archivos de `web/` actualizados por **Validar datos**. Son la copia exportada de tus cambios. No agregues archivos ajenos ni conformidades. Si no sabés qué incluir, pedí ayuda al supervisor.
 4. Escribí un mensaje claro, por ejemplo: `Revisar lote 02 y registrar preguntas sobre dos nombres`.
 5. Pulsá **Commit**. Luego **Publish Branch** la primera vez o **Sync Changes / Push** las siguientes.
 6. Abrí el repositorio en otra pestaña del navegador. Elegí **Compare & pull request** para esa rama. Si no aparece: **Pull requests → New pull request**, base `main`, compare tu rama.

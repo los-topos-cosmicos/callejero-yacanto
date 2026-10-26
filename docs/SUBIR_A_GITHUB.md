@@ -13,7 +13,7 @@ El repositorio `los-topos-cosmicos/callejero-yacanto` ya existe y está subido. 
 
 La [guía del estudiante](CODESPACES_ESTUDIANTE.md) explica cada clic. No hay `git init`, clonación ni configuración de credenciales en su computadora. Codespaces proporciona la autenticación de GitHub para el repositorio autorizado. [Documentación del flujo en el navegador](https://docs.github.com/en/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace).
 
-Antes de guardar un cambio de datos, el supervisor acompaña la regeneración de la copia exportada del visor: ejecutar `python3 scripts/construir.py` desde la terminal e incluir `web/datos.json`, `web/calles.csv` y `web/calles.geojson` en el mismo PR. La prueba `test_web_generada` reconstruye esos archivos en una carpeta temporal y exige que coincidan con los versionados; si falla, su mensaje indica cómo regenerarlos. No editar los archivos generados a mano.
+Antes de guardar un cambio de datos, ejecutar **Callejero: Validar datos**: si la validación pasa, la tarea regenera automáticamente la copia exportada del visor. Incluir `web/datos.json`, `web/calles.csv` y `web/calles.geojson` junto al lote en el mismo PR. Para cambios realizados fuera de esa tarea, el supervisor puede ejecutar `python3 scripts/construir.py` desde la terminal. La prueba `test_web_generada` reconstruye esos archivos en una carpeta temporal y exige que coincidan con los versionados; si falla, su mensaje indica cómo regenerarlos. No editar los archivos generados a mano. El workflow de vista previa no escribe commits en la rama del estudiante.
 
 ## Proteger el trabajo
 

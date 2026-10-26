@@ -38,7 +38,14 @@ def iniciar():
     raise RuntimeError('El visor no inició. El supervisor puede revisar build/codespaces/visor.log.')
 
 def ejecutar(action):
-    if action=='validar':return subprocess.call([sys.executable,'scripts/validar.py'],cwd=RAIZ)
+    if action=='validar':
+        status=subprocess.call([sys.executable,'scripts/validar.py'],cwd=RAIZ)
+        if status:return status
+        from construir import construir
+        construir(cargar(RAIZ),RAIZ/'web')
+        print('Datos válidos. Exportaciones web actualizadas: datos.json, calles.csv y calles.geojson. '
+              'Incluir esos archivos generados junto al lote en el mismo commit.')
+        return 0
     if action=='pruebas':return subprocess.call([sys.executable,'-m','unittest','discover','-s','tests','-v'],cwd=RAIZ)
     if action=='propuesta':return subprocess.call([sys.executable,'scripts/generar_propuesta.py'],cwd=RAIZ)
     if action=='pendientes':return subprocess.call([sys.executable,'scripts/pendientes.py'],cwd=RAIZ)
